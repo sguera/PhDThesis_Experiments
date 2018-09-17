@@ -1,0 +1,19 @@
+{
+	"project_name": "3d-3r-heterogeneous-constant-star-stencil",
+	"nthreads": [
+		1,
+		10
+	],
+	"parameters": [
+		"500 500 500"
+	],
+	"executions": 5,
+	"par_names": "M_MAX N_MAX P_MAX",
+	"pin_strat": [
+		"node"
+	],
+	"date": "20180810_173643",
+	"methods": [
+		"openMP"
+	]
+}

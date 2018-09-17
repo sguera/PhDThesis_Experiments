@@ -1,0 +1,48 @@
+cd /Users/guerrera/Documents/Projects/Thesis_exps
+
+STAR CONST
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 12000 12000 -k star -d 2 -C constant -c homogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 12000 12000 -k star -d 2 -C constant -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 12000 12000 -k star -d 2 -C constant -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 12000 12000 -k star -d 2 -C constant -c isotropic
+
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 500 500 500 -k star -d 3 -C constant -c isotropic
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 500 500 500 -k star -d 3 -C constant -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 500 500 500 -k star -d 3 -C constant -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 250 250 250 -k star -d 3 -C constant -c homogeneous
+
+
+STAR VAR
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 5000 5000 -k star -d 2 -C variable -c homogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 5000 5000 -k star -d 2 -C variable -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 5000 5000 -k star -d 2 -C variable -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 5000 5000 -k star -d 2 -C variable -c isotropic
+
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 250 250 250 -k star -d 3 -C variable -c homogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 250 250 250 -k star -d 3 -C variable -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 250 250 250 -k star -d 3 -C variable -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 250 250 250 -k star -d 3 -C variable -c isotropic
+
+
+BOX CONST
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 3000 3000 -k box -d 2 -C constant -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 3000 3000 -k box -d 2 -C constant -c homogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 3000 3000 -k box -d 2 -C constant -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 4 -s 3000 3000 -k box -d 2 -C constant -c isotropic
+
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 -s 500 500 500 -k box -d 3 -C constant -c isotropic
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 500 500 500 -k box -d 3 -C constant -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 500 500 500 -k box -d 3 -C constant -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2  -s 500 500 500 -k box -d 3 -C constant -c homogeneous
+
+
+BOX VAR
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 -s 3000 3000 -k box -d 2 -C variable -c homogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 -s 3000 3000 -k box -d 2 -C variable -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 -s 3000 3000 -k box -d 2 -C variable -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 3 -s 3000 3000 -k box -d 2 -C variable -c isotropic
+
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 250 250 250 -k box -d 3 -C variable -c isotropic
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 250 250 250 -k box -d 3 -C variable -c heterogeneous
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 250 250 250 -k box -d 3 -C variable -c point-symmetric
+python image_annotated_heatmap.py -w ~/Documents/Projects/Thesis_exps/mini-HPC/validation_thesis/ -t 1 10 -r 1 2 -s 250 250 250 -k box -d 3 -C variable -c homogeneous

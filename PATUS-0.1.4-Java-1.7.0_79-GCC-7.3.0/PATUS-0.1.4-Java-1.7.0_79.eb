@@ -1,0 +1,29 @@
+easyblock = 'MakeCp'
+
+name = 'PATUS'
+version = '0.1.4'
+
+homepage = 'https://github.com/matthias-christen/patus/'
+description = """The Patus framework is a code generation and autotuning tool for the class of stencil computations. The idea behind the Patus framework is twofold: on the one hand, it provides a software infrastructure for generating architecture-specific (CPUs, GPUs) stencil code from a specification of the stencil incorporating domain-specific knowledge that enables optimizing the code beyond the abilities of current compilers. On the other hand, it aims at being an experimentation toolbox for parallelization and optimization strategies. Using a small domain specific language, the user can define the stencil kernel as shown in the example. Predefined strategies describe how the kernel is optimized and parallelized. Or custom strategies can be designed to experiment with other algorithms or to find a better mapping to the hardware."""
+
+toolchain = {'name': 'dummy', 'version': ''}
+
+sources = ['%s-0.1.4.zip' % name.lower()]
+source_urls = ['https://raw.githubusercontent.com/sguera/Patus/master/']
+
+skipsteps = ['build']
+
+java = 'Java'
+javaver = '1.7.0_79'
+versionsuffix = '-%s-%s' % (java, javaver)
+
+dependencies = [(java, javaver), ('Maxima', '5.37.2')]
+
+files_to_copy = ['arch', 'bin', 'etc', 'examples', 'quickstart.pdf', 'runtime', 'strategy', 'util']
+
+sanity_check_paths = {
+    'files': ['bin/patus'],
+    'dirs': ['arch', 'bin', 'runtime', 'strategy', 'util'],
+}
+
+moduleclass = 'devel'

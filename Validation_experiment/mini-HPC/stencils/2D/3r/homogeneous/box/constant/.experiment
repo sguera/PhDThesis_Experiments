@@ -1,0 +1,19 @@
+{
+	"project_name": "2d-3r-homogeneous-constant-box-stencil",
+	"nthreads": [
+		1,
+		10
+	],
+	"parameters": [
+		"3000 3000"
+	],
+	"executions": 5,
+	"par_names": "M_MAX N_MAX",
+	"pin_strat": [
+		"node"
+	],
+	"date": "20180827_143457",
+	"methods": [
+		"openMP"
+	]
+}

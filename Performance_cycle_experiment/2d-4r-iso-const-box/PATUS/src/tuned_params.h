@@ -1,0 +1,4 @@
+#define EXAMPLE_CB_X 0
+#define EXAMPLE_CB_Y 0
+#define EXAMPLE_CHUNK 0
+#define EXAMPLE__UNROLL_P3 0

@@ -1,0 +1,19 @@
+{
+	"project_name": "2d-1r-homogeneous-constant-star-stencil",
+	"nthreads": [
+		1,
+		10
+	],
+	"parameters": [
+		"12000 12000"
+	],
+	"executions": 5,
+	"par_names": "M_MAX N_MAX",
+	"pin_strat": [
+		"node"
+	],
+	"date": "20180830_144955",
+	"methods": [
+		"openMP"
+	]
+}

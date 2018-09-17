@@ -1,0 +1,35 @@
+stencil example (
+    double grid U(0 .. M_MAX-1, 0 .. N_MAX-1),
+    double param c0 = 0.2,
+    double param c1 = 0.3,
+    double param c2 = 0.65,
+    double param c3 = 0.15,
+    double param c4 = 0.75,
+    double param c5 = 0.45,
+    double param c6 = 0.25,
+    double param c7 = 0.85,
+    double param c8 = 0.35
+    )
+{
+    iterate while t < 200;
+    domainsize = (4 .. M_MAX-5, 4 .. N_MAX-5);
+
+    initial
+    {
+       U[x, y; 0] = 1;
+    }
+    
+    operation 
+    {
+        U[x, y; t+1] = c0 * U[x, y; t] +
+                       c1 * (U[x, y - 1; t] + U[x - 1, y; t] + U[x + 1, y; t] + U[x, y + 1; t]) +
+                       c2 * (U[x, y - 2; t] + U[x - 1, y - 1; t] + U[x + 1, y - 1; t] + U[x - 2, y; t] + U[x + 2, y; t] + U[x - 1, y + 1; t] + U[x + 1, y + 1; t] + U[x, y + 2; t]) +
+                       c3 * (U[x, y - 3; t] + U[x - 1, y - 2; t] + U[x + 1, y - 2; t] + U[x - 2, y - 1; t] + U[x + 2, y - 1; t] + U[x - 3, y; t] + U[x + 3, y; t] + U[x - 2, y + 1; t] + U[x + 2, y + 1; t] + U[x - 1, y + 2; t] + U[x + 1, y + 2; t] + U[x, y + 3; t]) +
+                       c4 * (U[x, y - 4; t] + U[x - 1, y - 3; t] + U[x + 1, y - 3; t] + U[x - 2, y - 2; t] + U[x + 2, y - 2; t] + U[x - 3, y - 1; t] + U[x + 3, y - 1; t] + U[x - 4, y; t] + U[x + 4, y; t] + U[x - 3, y + 1; t] + U[x + 3, y + 1; t] + U[x - 2, y + 2; t] + U[x + 2, y + 2; t] + U[x - 1, y + 3; t] + U[x + 1, y + 3; t] + U[x, y + 4; t]) +
+                       c5 * (U[x - 1, y - 4; t] + U[x + 1, y - 4; t] + U[x - 2, y - 3; t] + U[x + 2, y - 3; t] + U[x - 3, y - 2; t] + U[x + 3, y - 2; t] + U[x - 4, y - 1; t] + U[x + 4, y - 1; t] + U[x - 4, y + 1; t] + U[x + 4, y + 1; t] + U[x - 3, y + 2; t] + U[x + 3, y + 2; t] + U[x - 2, y + 3; t] + U[x + 2, y + 3; t] + U[x - 1, y + 4; t] + U[x + 1, y + 4; t]) +
+                       c6 * (U[x - 2, y - 4; t] + U[x + 2, y - 4; t] + U[x - 3, y - 3; t] + U[x + 3, y - 3; t] + U[x - 4, y - 2; t] + U[x + 4, y - 2; t] + U[x - 4, y + 2; t] + U[x + 4, y + 2; t] + U[x - 3, y + 3; t] + U[x + 3, y + 3; t] + U[x - 2, y + 4; t] + U[x + 2, y + 4; t]) +
+                       c7 * (U[x - 3, y - 4; t] + U[x + 3, y - 4; t] + U[x - 4, y - 3; t] + U[x + 4, y - 3; t] + U[x - 4, y + 3; t] + U[x + 4, y + 3; t] + U[x - 3, y + 4; t] + U[x + 3, y + 4; t]) +
+                       c8 * (U[x - 4, y - 4; t] + U[x + 4, y - 4; t] + U[x - 4, y + 4; t] + U[x + 4, y + 4; t])
+        ;
+    }
+}

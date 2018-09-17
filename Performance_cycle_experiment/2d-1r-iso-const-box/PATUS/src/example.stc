@@ -1,0 +1,23 @@
+stencil example (
+    double grid U(0 .. M_MAX-1, 0 .. N_MAX-1),
+    double param c0 = 0.2,
+    double param c1 = 0.3,
+    double param c2 = 0.65
+    )
+{
+    iterate while t < 200;
+    domainsize = (1 .. M_MAX-2, 1 .. N_MAX-2);
+
+    initial
+    {
+       U[x, y; 0] = 1;
+    }
+    
+    operation 
+    {
+        U[x, y; t+1] = c0 * U[x, y; t] +
+        	           c1 * (U[x, y - 1; t] + U[x - 1, y; t] + U[x + 1, y; t] + U[x, y + 1; t]) +
+        	           c2 * (U[x - 1, y - 1; t] + U[x + 1, y - 1; t] + U[x - 1, y + 1; t] + U[x + 1, y + 1; t])
+        ;
+    }
+}

@@ -1,0 +1,98 @@
+wget https://repo.anaconda.com/archive/Anaconda2-5.1.0-Linux-x86_64.sh
+bash Anaconda2-5.0.1-Linux-x86_64.sh
+conda create -n mykern0610 python=3.5
+source activate mykern0610
+module load git
+pip install git+https://github.com/RRZE-HPC/kerncraft.git@8ce339c1fffe00c855693216cc68a26c098aa7df
+iaca_get --I-accept-the-Intel-What-If-Pre-Release-License-Agreement-and-please-take-my-soul 
+pip install git+https://github.com/RRZE-HPC/stempel.git@ea67424f7b69850b85f2eff7902bcf1f382d1bed
+source deactivate
+
+qsub -I -l nodes=1:ppn=40:f2.2,walltime=01:59:00
+cd THESIS
+source activate mykern0610
+module load gcc/7.3.0
+#2D STAR
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 12000 12000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 5000 5000
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 12000 12000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 5000 5000
+
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 12000 12000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 5000 5000
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 12000 12000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 5000 5000
+
+
+
+#3D STAR
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C variable -r 2 -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c isotropic -C variable -r 2 -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 3
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C variable -r 1 -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C variable -r 2 -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C variable -r 3 -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c point-symmetric -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 3
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 4
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 3
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 4
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 3
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k star -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 4
+
+
+#2D BOX
+ISO
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 6000 6000 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000 -r 3
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000 -r 4
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c point-symmetric -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c point-symmetric -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000 -r 2
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c homogeneous -C constant -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c homogeneous -C variable -d 2 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 3000 3000
+
+#3D BOX
+ISO
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500 -r 3
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c isotropic -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 200 200 200 -r 3
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c point-symmetric -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c point-symmetric -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c heterogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c homogeneous -C constant -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 500 500 500
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 1
+analysis -w ~/THESIS/stempelvalidation/ -p ~/PROVA/ ~/THESIS/provavalidation/ -m IvyBridgeEP_E5-2660v2.yml -k box -c homogeneous -C variable -d 3 -e 5 -t 1 10 --method_type OpenMP-4.5-GCC-7.3.0-2.30 -l /apps/likwid/system/include/ /apps/likwid/system/lib/ --iaca --sizes 250 250 250 -r 2
+

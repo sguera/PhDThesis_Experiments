@@ -1,0 +1,354 @@
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/3D/3r/homogeneous/star/constant/3d-3r-homogeneous-constant-star-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D N 500 -D M 500 -D P 500
+----------------------------------- Roofline -----------------------------------
+double a[M][N][P];
+double b[M][N][P];
+double c0;
+
+for(int k=3; k < M-3; k++){
+for(int j=3; j < N-3; j++){
+for(int i=3; i < P-3; i++){
+b[k][j][i] = c0 * (a[k][j][i]
++ a[k][j][i-1] + a[k][j][i+1]
++ a[k-1][j][i] + a[k+1][j][i]
++ a[k][j-1][i] + a[k][j+1][i]
++ a[k][j][i-2] + a[k][j][i+2]
++ a[k-2][j][i] + a[k+2][j][i]
++ a[k][j-2][i] + a[k][j+2][i]
++ a[k][j][i-3] + a[k][j][i+3]
++ a[k-3][j][i] + a[k+3][j][i]
++ a[k][j-3][i] + a[k][j+3][i]
+);
+}
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  a | double (M, N, P) 
+                  b | double (M, N, P) 
+                 c0 | double None      
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          k |          3      M - 3          1
+                          j |          3      N - 3          1
+                          i |          3      P - 3          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                          a | (k - 1, j, i)
+                            | (k - 2, j, i)
+                            | (k, j, i + 3)
+                            | (k, j, i - 1)
+                            | (k, j, i + 1)
+                            | (k, j, i - 2)
+                            | (k, j + 2, i)
+                            | (k, j, i - 3)
+                            | (k, j - 1, i)
+                            | (k, j - 2, i)
+                            | (k + 2, j, i)
+                            | (k, j, i)
+                            | (k, j, i + 2)
+                            | (k, j + 1, i)
+                            | (k + 3, j, i)
+                            | (k, j + 3, i)
+                            | (k + 1, j, i)
+                            | (k, j - 3, i)
+                            | (k - 3, j, i)
+                         c0 | None
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (k, j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             * |    1
+             + |   18
+                =======
+                   19
+
+constants:     name | value     
+           ---------+-----------
+                  N | 500       
+                  M | 500       
+                  P | 500       
+           
+
+{'accesses': {'a': [(k - 1, j, i),
+                    (k - 2, j, i),
+                    (k, j, i + 1),
+                    (k, j, i),
+                    (k, j, i + 2),
+                    (k, j + 1, i),
+                    (k + 3, j, i),
+                    (k, j + 3, i),
+                    (k + 1, j, i),
+                    (k, j - 3, i),
+                    (k - 3, j, i),
+                    (k, j, i + 3),
+                    (k, j, i - 1),
+                    (k, j, i - 2),
+                    (k, j + 2, i),
+                    (k, j, i - 3),
+                    (k, j - 1, i),
+                    (k, j - 2, i),
+                    (k + 2, j, i)],
+              'b': [(k, j, i)],
+              'c0': [None]},
+ 'cache': [{'evicts': 1,
+            'hits': 6,
+            'misses': 14,
+            'name': 'L1',
+            'requirement': 160,
+            'tail': 8},
+           {'evicts': 1,
+            'hits': 12,
+            'misses': 8,
+            'name': 'L2',
+            'requirement': 56000,
+            'tail': 4000},
+           {'evicts': 1,
+            'hits': 12,
+            'misses': 8,
+            'name': 'L3',
+            'requirement': 56000,
+            'tail': 4000}],
+ 'destinations': {('b', (k, j, i))},
+ 'distances': [oo,
+               oo,
+               250000,
+               250000,
+               250000,
+               250000,
+               248500,
+               248500,
+               500,
+               500,
+               500,
+               500,
+               497,
+               497,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1],
+ 'distances_bytes': [oo,
+                     oo,
+                     2000000,
+                     2000000,
+                     2000000,
+                     2000000,
+                     1988000,
+                     1988000,
+                     4000,
+                     4000,
+                     4000,
+                     4000,
+                     3976,
+                     3976,
+                     8,
+                     8,
+                     8,
+                     8,
+                     8,
+                     8]}
+Bottlenecks:
+  level | a. intensity |   performance   |   peak bandwidth  | peak bandwidth kernel
+--------+--------------+-----------------+-------------------+----------------------
+    CPU |              |  176.00 GFLOP/s |                   |
+     L1 |  0.16 FLOP/B |   54.51 GFLOP/s |       338.55 GB/s | triad   
+     L2 |  0.16 FLOP/B |   51.44 GFLOP/s |       324.89 GB/s | triad   
+     L3 |  0.26 FLOP/B |   60.05 GFLOP/s |       227.55 GB/s | triad   
+    MEM |  0.26 FLOP/B |   10.90 GFLOP/s |        41.30 GB/s | triad   
+
+Cache or mem bound.
+10.90 GFLOP/s due to MEM transfer bottleneck (with bw from triad benchmark)
+Arithmetic Intensity: 0.26 FLOP/B
+
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/3D/3r/homogeneous/star/constant/3d-3r-homogeneous-constant-star-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D N 500 -D M 500 -D P 500
+------------------------------------- ECM --------------------------------------
+double a[M][N][P];
+double b[M][N][P];
+double c0;
+
+for(int k=3; k < M-3; k++){
+for(int j=3; j < N-3; j++){
+for(int i=3; i < P-3; i++){
+b[k][j][i] = c0 * (a[k][j][i]
++ a[k][j][i-1] + a[k][j][i+1]
++ a[k-1][j][i] + a[k+1][j][i]
++ a[k][j-1][i] + a[k][j+1][i]
++ a[k][j][i-2] + a[k][j][i+2]
++ a[k-2][j][i] + a[k+2][j][i]
++ a[k][j-2][i] + a[k][j+2][i]
++ a[k][j][i-3] + a[k][j][i+3]
++ a[k-3][j][i] + a[k+3][j][i]
++ a[k][j-3][i] + a[k][j+3][i]
+);
+}
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  a | double (M, N, P) 
+                  b | double (M, N, P) 
+                 c0 | double None      
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          k |          3      M - 3          1
+                          j |          3      N - 3          1
+                          i |          3      P - 3          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                          a | (k - 1, j, i)
+                            | (k - 2, j, i)
+                            | (k, j, i + 3)
+                            | (k, j, i - 1)
+                            | (k, j, i + 1)
+                            | (k, j, i - 2)
+                            | (k, j + 2, i)
+                            | (k, j, i - 3)
+                            | (k, j - 1, i)
+                            | (k, j - 2, i)
+                            | (k + 2, j, i)
+                            | (k, j, i)
+                            | (k, j, i + 2)
+                            | (k, j + 1, i)
+                            | (k + 3, j, i)
+                            | (k, j + 3, i)
+                            | (k + 1, j, i)
+                            | (k, j - 3, i)
+                            | (k - 3, j, i)
+                         c0 | None
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (k, j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             * |    1
+             + |   18
+                =======
+                   19
+
+constants:     name | value     
+           ---------+-----------
+                  N | 500       
+                  M | 500       
+                  P | 500       
+           
+
+Ports and cycles: {'1': 144.0, '0': 12.0, '3': 96.0, '0DV': 0.0, '2D': 92.0, '5': 35.2, '2': 96.0, '3D': 92.0, '4': 8.0}
+Uops: 392.0
+Throughput: 2.32 GFLOP/s
+T_nOL = 92.0 cy/CL
+T_OL = 144.0 cy/CL
+{'accesses': {'a': [(k - 1, j, i),
+                    (k - 2, j, i),
+                    (k, j, i + 1),
+                    (k, j, i),
+                    (k, j, i + 2),
+                    (k, j + 1, i),
+                    (k + 3, j, i),
+                    (k, j + 3, i),
+                    (k + 1, j, i),
+                    (k, j - 3, i),
+                    (k - 3, j, i),
+                    (k, j, i + 3),
+                    (k, j, i - 1),
+                    (k, j, i - 2),
+                    (k, j + 2, i),
+                    (k, j, i - 3),
+                    (k, j - 1, i),
+                    (k, j - 2, i),
+                    (k + 2, j, i)],
+              'b': [(k, j, i)],
+              'c0': [None]},
+ 'cache': [{'evicts': 1,
+            'hits': 6,
+            'misses': 14,
+            'name': 'L1',
+            'requirement': 160,
+            'tail': 8},
+           {'evicts': 1,
+            'hits': 12,
+            'misses': 8,
+            'name': 'L2',
+            'requirement': 56000,
+            'tail': 4000},
+           {'evicts': 1,
+            'hits': 12,
+            'misses': 8,
+            'name': 'L3',
+            'requirement': 56000,
+            'tail': 4000}],
+ 'destinations': {('b', (k, j, i))},
+ 'distances': [oo,
+               oo,
+               250000,
+               250000,
+               250000,
+               250000,
+               248500,
+               248500,
+               500,
+               500,
+               500,
+               500,
+               497,
+               497,
+               1,
+               1,
+               1,
+               1,
+               1,
+               1],
+ 'distances_bytes': [oo,
+                     oo,
+                     2000000,
+                     2000000,
+                     2000000,
+                     2000000,
+                     1988000,
+                     1988000,
+                     4000,
+                     4000,
+                     4000,
+                     4000,
+                     3976,
+                     3976,
+                     8,
+                     8,
+                     8,
+                     8,
+                     8,
+                     8]}
+L2 = 11.15 GFLOP/s
+L3 = 18.58 GFLOP/s
+MEM = 10.91 GFLOP/s
+memory cycles based on triad kernel with 41.35 GB/s
+{ 144.0 || 92.0 | 30.0 | 18.0 | 30.6 } cy/CL = 1.96 GFLOP/s
+{ 144.0 \ 144.0 \ 144.0 \ 170.6 } cy/CL
+saturating at 5.6 cores
+

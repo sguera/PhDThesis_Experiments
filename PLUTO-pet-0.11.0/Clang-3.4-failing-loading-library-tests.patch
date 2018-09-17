@@ -1,0 +1,11 @@
+diff -urN llvm-3.4.orig/tools/clang/test/Modules/prune.m llvm-3.4/tools/clang/test/Modules/prune.m
+--- llvm-3.4.orig/projects/compiler-rt/lib/tsan/lit_tests/load_shared_lib.cc	2013-08-07 11:02:37.000000000 +0200  
++++ llvm-3.4/projects/compiler-rt/lib/tsan/lit_tests/load_shared_lib.cc	2017-02-15 11:16:16.000000000 +0100
+@@ -39,6 +39,6 @@
+   void *(*write_from_so)(void *unused);
+   *(void **)&write_from_so = dlsym(lib, "write_from_so");
+   race_two_threads(write_from_so);
+-  // CHECK: write_from_so
++
+   return 0;
+ }

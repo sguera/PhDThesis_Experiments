@@ -1,0 +1,24 @@
+easyblock = 'ConfigureMake'
+
+name = 'Maxima'
+version = '5.37.2'
+
+homepage = 'http://maxima.sourceforge.net/'
+description = """Maxima, a Computer Algebra System"""
+
+toolchain = {'name': 'dummy', 'version': ''}
+
+source_urls = ['http://sourceforge.net/projects/maxima/files/Maxima-source/%(version)s-source/']
+sources = [SOURCELOWER_TAR_GZ]
+
+configopts = '--enable-ecl'
+
+comp_name = 'GCCcore'
+comp_vers = '7.3.0'
+comp = (comp_name, comp_vers)
+builddependencies = [
+    comp,
+    ('ecl', '16.0.0', '', comp),
+]
+
+moduleclass = 'math'

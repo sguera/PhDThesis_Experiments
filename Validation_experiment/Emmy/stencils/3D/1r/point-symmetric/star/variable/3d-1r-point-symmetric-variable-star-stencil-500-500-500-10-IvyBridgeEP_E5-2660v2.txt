@@ -1,0 +1,358 @@
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/3D/1r/point-symmetric/star/variable/3d-1r-point-symmetric-variable-star-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D M 500 -D N 500 -D P 500
+----------------------------------- Roofline -----------------------------------
+double a[M][N][P];
+double b[M][N][P];
+double W[M][N][P][4];
+
+for(int k=1; k < M-1; k++){
+for(int j=1; j < N-1; j++){
+for(int i=1; i < P-1; i++){
+b[k][j][i] = W[k][j][i][0] * a[k][j][i]
++ W[k][j][i][1] * (a[k][j][i-1] + a[k][j][i+1])
++ W[k][j][i][2] * (a[k-1][j][i] + a[k+1][j][i])
++ W[k][j][i][3] * (a[k][j-1][i] + a[k][j+1][i])
+;
+}
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  b | double (M, N, P) 
+                  a | double (M, N, P) 
+                  W | double (M, N, P, 4)
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          k |          1      M - 1          1
+                          j |          1      N - 1          1
+                          i |          1      P - 1          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                          a | (k - 1, j, i)
+                            | (k, j + 1, i)
+                            | (k, j, i)
+                            | (k, j - 1, i)
+                            | (k, j, i + 1)
+                            | (k, j, i - 1)
+                            | (k + 1, j, i)
+                          W | (k, j, i, 1)
+                            | (k, j, i, 0)
+                            | (k, j, i, 3)
+                            | (k, j, i, 2)
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (k, j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             + |    6
+             * |    4
+                =======
+                   10
+
+constants:     name | value     
+           ---------+-----------
+                  M | 500       
+                  N | 500       
+                  P | 500       
+           
+
+{'cache stats': [{'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 26648,
+                  'HIT_count': 3331,
+                  'LOAD_byte': 32256,
+                  'LOAD_count': 3738,
+                  'MISS_byte': 5608,
+                  'MISS_count': 407,
+                  'STORE_byte': 2688,
+                  'STORE_count': 336,
+                  'name': 'L1'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 4544,
+                  'HIT_count': 71,
+                  'LOAD_byte': 26048,
+                  'LOAD_count': 407,
+                  'MISS_byte': 21504,
+                  'MISS_count': 336,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L2'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 21504,
+                  'LOAD_count': 336,
+                  'MISS_byte': 21504,
+                  'MISS_count': 336,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L3'},
+                 {'EVICT_byte': 0,
+                  'EVICT_count': 0,
+                  'HIT_byte': 21504,
+                  'HIT_count': 336,
+                  'LOAD_byte': 21504,
+                  'LOAD_count': 336,
+                  'MISS_byte': 0,
+                  'MISS_count': 0,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'MEM'}],
+ 'cachelines in stats': 42,
+ 'memory hierarchy': [{'cycles': None,
+                       'index': 0,
+                       'level': 'L1',
+                       'total evicts': 64.0,
+                       'total hits': 634.4761904761905,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 79.30952380952381,
+                       'total lines load': 89.0,
+                       'total lines misses': 9.69047619047619,
+                       'total lines stores': 8.0,
+                       'total loads': 768.0,
+                       'total misses': 133.52380952380952,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 1,
+                       'level': 'L2',
+                       'total evicts': 64.0,
+                       'total hits': 108.19047619047619,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 1.6904761904761905,
+                       'total lines load': 9.69047619047619,
+                       'total lines misses': 8.0,
+                       'total lines stores': 1.0,
+                       'total loads': 620.1904761904761,
+                       'total misses': 512.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 2,
+                       'level': 'L3',
+                       'total evicts': 64.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 8.0,
+                       'total lines misses': 8.0,
+                       'total lines stores': 1.0,
+                       'total loads': 512.0,
+                       'total misses': 512.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 3,
+                       'level': 'MEM',
+                       'total evicts': 0.0,
+                       'total hits': 512.0,
+                       'total lines evicts': 0.0,
+                       'total lines hits': 8.0,
+                       'total lines load': 8.0,
+                       'total lines misses': 0.0,
+                       'total lines stores': 1.0,
+                       'total loads': 512.0,
+                       'total misses': 0.0,
+                       'total stores': 64.0}]}
+Bottlenecks:
+  level | a. intensity |   performance   |   peak bandwidth  | peak bandwidth kernel
+--------+--------------+-----------------+-------------------+----------------------
+    CPU |              |  176.00 GFLOP/s |                   |
+     L1 |  0.12 FLOP/B |   41.29 GFLOP/s |       338.55 GB/s | triad   
+     L2 |  0.12 FLOP/B |   37.99 GFLOP/s |       324.89 GB/s | triad   
+     L3 |  0.14 FLOP/B |   31.60 GFLOP/s |       227.55 GB/s | triad   
+    MEM |  0.14 FLOP/B |    5.74 GFLOP/s |        41.30 GB/s | triad   
+
+Cache or mem bound.
+5.74 GFLOP/s due to MEM transfer bottleneck (with bw from triad benchmark)
+Arithmetic Intensity: 0.14 FLOP/B
+
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/3D/1r/point-symmetric/star/variable/3d-1r-point-symmetric-variable-star-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D M 500 -D N 500 -D P 500
+------------------------------------- ECM --------------------------------------
+double a[M][N][P];
+double b[M][N][P];
+double W[M][N][P][4];
+
+for(int k=1; k < M-1; k++){
+for(int j=1; j < N-1; j++){
+for(int i=1; i < P-1; i++){
+b[k][j][i] = W[k][j][i][0] * a[k][j][i]
++ W[k][j][i][1] * (a[k][j][i-1] + a[k][j][i+1])
++ W[k][j][i][2] * (a[k-1][j][i] + a[k+1][j][i])
++ W[k][j][i][3] * (a[k][j-1][i] + a[k][j+1][i])
+;
+}
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  b | double (M, N, P) 
+                  a | double (M, N, P) 
+                  W | double (M, N, P, 4)
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          k |          1      M - 1          1
+                          j |          1      N - 1          1
+                          i |          1      P - 1          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                          a | (k - 1, j, i)
+                            | (k, j + 1, i)
+                            | (k, j, i)
+                            | (k, j - 1, i)
+                            | (k, j, i + 1)
+                            | (k, j, i - 1)
+                            | (k + 1, j, i)
+                          W | (k, j, i, 1)
+                            | (k, j, i, 0)
+                            | (k, j, i, 3)
+                            | (k, j, i, 2)
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (k, j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             + |    6
+             * |    4
+                =======
+                   10
+
+constants:     name | value     
+           ---------+-----------
+                  M | 500       
+                  N | 500       
+                  P | 500       
+           
+
+Ports and cycles: {'2': 24.0, '4': 4.0, '1': 16.0, '2D': 22.0, '0': 30.0, '3': 24.0, '3D': 22.0, '5': 34.0, '0DV': 0.0}
+Uops: 132.0
+Throughput: 5.18 GFLOP/s
+T_nOL = 22.0 cy/CL
+T_OL = 34.0 cy/CL
+{'cache stats': [{'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 26648,
+                  'HIT_count': 3331,
+                  'LOAD_byte': 32256,
+                  'LOAD_count': 3738,
+                  'MISS_byte': 5608,
+                  'MISS_count': 407,
+                  'STORE_byte': 2688,
+                  'STORE_count': 336,
+                  'name': 'L1'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 4544,
+                  'HIT_count': 71,
+                  'LOAD_byte': 26048,
+                  'LOAD_count': 407,
+                  'MISS_byte': 21504,
+                  'MISS_count': 336,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L2'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 21504,
+                  'LOAD_count': 336,
+                  'MISS_byte': 21504,
+                  'MISS_count': 336,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L3'},
+                 {'EVICT_byte': 0,
+                  'EVICT_count': 0,
+                  'HIT_byte': 21504,
+                  'HIT_count': 336,
+                  'LOAD_byte': 21504,
+                  'LOAD_count': 336,
+                  'MISS_byte': 0,
+                  'MISS_count': 0,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'MEM'}],
+ 'cachelines in stats': 42,
+ 'memory hierarchy': [{'cycles': None,
+                       'index': 0,
+                       'level': 'L1',
+                       'total evicts': 64.0,
+                       'total hits': 634.4761904761905,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 79.30952380952381,
+                       'total lines load': 89.0,
+                       'total lines misses': 9.69047619047619,
+                       'total lines stores': 8.0,
+                       'total loads': 768.0,
+                       'total misses': 133.52380952380952,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 1,
+                       'level': 'L2',
+                       'total evicts': 64.0,
+                       'total hits': 108.19047619047619,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 1.6904761904761905,
+                       'total lines load': 9.69047619047619,
+                       'total lines misses': 8.0,
+                       'total lines stores': 1.0,
+                       'total loads': 620.1904761904761,
+                       'total misses': 512.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 2,
+                       'level': 'L3',
+                       'total evicts': 64.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 8.0,
+                       'total lines misses': 8.0,
+                       'total lines stores': 1.0,
+                       'total loads': 512.0,
+                       'total misses': 512.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 3,
+                       'level': 'MEM',
+                       'total evicts': 0.0,
+                       'total hits': 512.0,
+                       'total lines evicts': 0.0,
+                       'total lines hits': 8.0,
+                       'total lines load': 8.0,
+                       'total lines misses': 0.0,
+                       'total lines stores': 1.0,
+                       'total loads': 512.0,
+                       'total misses': 0.0,
+                       'total stores': 64.0}]}
+L2 = 8.23 GFLOP/s
+L3 = 9.78 GFLOP/s
+MEM = 5.74 GFLOP/s
+memory cycles based on triad kernel with 41.35 GB/s
+{ 34.0 || 22.0 | 21.4 | 18.0 | 30.6 } cy/CL = 1.91 GFLOP/s
+{ 34.0 \ 43.4 \ 61.4 \ 92.0 } cy/CL
+saturating at 3.0 cores
+

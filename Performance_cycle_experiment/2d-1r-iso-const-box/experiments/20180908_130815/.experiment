@@ -1,0 +1,30 @@
+{
+	"project_name": "2d-1r-iso-const-box",
+	"nthreads": [
+		1,
+		2,
+		4,
+		6,
+		8,
+		10,
+		16,
+		20
+	],
+	"parameters": [
+		"3000 3000 200",
+		"500 500 200"
+	],
+	"executions": 10,
+	"par_names": "M_MAX N_MAX T_MAX",
+	"pin_strat": [
+		"none",
+		"node",
+		"spread"
+	],
+	"date": "20180908_130815",
+	"methods": [
+		"OpenMP",
+		"PATUS",
+		"PLUTO"
+	]
+}

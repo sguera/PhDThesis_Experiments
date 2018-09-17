@@ -1,0 +1,26 @@
+easyblock = 'ConfigureMake'
+
+name = 'ecl'
+version = '16.0.0'
+
+description = "Embeddable common Lisp implementation"
+
+sources = [SOURCE_TGZ]
+source_urls = ['http://common-lisp.net/project/ecl/static/files/release/']
+
+homepage = 'http://common-lisp.net'
+
+toolchain = {'name': 'GCCcore', 'version': '7.3.0'}
+
+# use same binutils version that was used when building GCC toolchain
+builddependencies = [('binutils', '2.30', '', True)]
+
+dependencies = [('M4', '1.4.18')]
+
+sanity_check_paths = {
+    'files': [],   ## fixme
+    'dirs': ['.'], ## fixme
+}
+
+parallel = 1
+moduleclass = 'lang'

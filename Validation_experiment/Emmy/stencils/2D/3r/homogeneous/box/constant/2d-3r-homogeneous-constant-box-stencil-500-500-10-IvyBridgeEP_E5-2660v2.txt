@@ -1,0 +1,518 @@
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/2D/3r/homogeneous/box/constant/2d-3r-homogeneous-constant-box-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D N 500 -D M 500
+----------------------------------- Roofline -----------------------------------
+double a[M][N];
+double b[M][N];
+double c0;
+
+for(int j=3; j < M-3; j++){
+for(int i=3; i < N-3; i++){
+b[j][i] = c0 * (a[j][i]
++ a[j-3][i-3]
++ a[j-2][i-3]
++ a[j-1][i-3]
++ a[j][i-3]
++ a[j+1][i-3]
++ a[j+2][i-3]
++ a[j+3][i-3]
++ a[j-3][i-2]
++ a[j-2][i-2]
++ a[j-1][i-2]
++ a[j][i-2]
++ a[j+1][i-2]
++ a[j+2][i-2]
++ a[j+3][i-2]
++ a[j-3][i-1]
++ a[j-2][i-1]
++ a[j-1][i-1]
++ a[j][i-1]
++ a[j+1][i-1]
++ a[j+2][i-1]
++ a[j+3][i-1]
++ a[j-3][i]
++ a[j-2][i]
++ a[j-1][i]
++ a[j+1][i]
++ a[j+2][i]
++ a[j+3][i]
++ a[j-3][i+1]
++ a[j-2][i+1]
++ a[j-1][i+1]
++ a[j][i+1]
++ a[j+1][i+1]
++ a[j+2][i+1]
++ a[j+3][i+1]
++ a[j-3][i+2]
++ a[j-2][i+2]
++ a[j-1][i+2]
++ a[j][i+2]
++ a[j+1][i+2]
++ a[j+2][i+2]
++ a[j+3][i+2]
++ a[j-3][i+3]
++ a[j-2][i+3]
++ a[j-1][i+3]
++ a[j][i+3]
++ a[j+1][i+3]
++ a[j+2][i+3]
++ a[j+3][i+3]
+);
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  b | double (M, N)    
+                  a | double (M, N)    
+                 c0 | double None      
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          j |          3      M - 3          1
+                          i |          3      N - 3          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                         c0 | None
+                          a | (j + 3, i)
+                            | (j + 2, i + 2)
+                            | (j - 2, i + 1)
+                            | (j - 1, i + 1)
+                            | (j + 3, i + 2)
+                            | (j + 1, i)
+                            | (j + 2, i)
+                            | (j - 3, i + 3)
+                            | (j + 1, i + 1)
+                            | (j + 3, i + 3)
+                            | (j, i + 1)
+                            | (j, i)
+                            | (j + 1, i - 3)
+                            | (j + 3, i - 2)
+                            | (j + 3, i - 1)
+                            | (j - 1, i - 2)
+                            | (j - 2, i - 1)
+                            | (j - 1, i - 1)
+                            | (j - 2, i - 2)
+                            | (j, i + 2)
+                            | (j + 3, i + 1)
+                            | (j - 2, i + 2)
+                            | (j - 1, i + 2)
+                            | (j + 1, i + 3)
+                            | (j + 2, i + 3)
+                            | (j + 1, i + 2)
+                            | (j - 2, i + 3)
+                            | (j - 1, i + 3)
+                            | (j - 3, i)
+                            | (j - 3, i + 2)
+                            | (j + 1, i - 2)
+                            | (j + 2, i + 1)
+                            | (j - 2, i)
+                            | (j - 1, i)
+                            | (j + 3, i - 3)
+                            | (j + 2, i - 3)
+                            | (j - 3, i - 3)
+                            | (j - 3, i - 2)
+                            | (j - 3, i - 1)
+                            | (j, i + 3)
+                            | (j - 1, i - 3)
+                            | (j + 2, i - 2)
+                            | (j + 2, i - 1)
+                            | (j - 3, i + 1)
+                            | (j + 1, i - 1)
+                            | (j, i - 2)
+                            | (j - 2, i - 3)
+                            | (j, i - 3)
+                            | (j, i - 1)
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             + |   48
+             * |    1
+                =======
+                   49
+
+constants:     name | value     
+           ---------+-----------
+                  N | 500       
+                  M | 500       
+           
+
+{'cache stats': [{'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 131376,
+                  'HIT_count': 16422,
+                  'LOAD_byte': 134400,
+                  'LOAD_count': 16506,
+                  'MISS_byte': 3024,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 336,
+                  'name': 'L1'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 5376,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L2'},
+                 {'EVICT_byte': 5376,
+                  'EVICT_count': 84,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 5376,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L3'},
+                 {'EVICT_byte': 0,
+                  'EVICT_count': 0,
+                  'HIT_byte': 5376,
+                  'HIT_count': 84,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 0,
+                  'MISS_count': 0,
+                  'STORE_byte': 5376,
+                  'STORE_count': 84,
+                  'name': 'MEM'}],
+ 'cachelines in stats': 42,
+ 'memory hierarchy': [{'cycles': None,
+                       'index': 0,
+                       'level': 'L1',
+                       'total evicts': 64.0,
+                       'total hits': 3128.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 391.0,
+                       'total lines load': 393.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 8.0,
+                       'total loads': 3200.0,
+                       'total misses': 72.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 1,
+                       'level': 'L2',
+                       'total evicts': 64.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 1.0,
+                       'total loads': 128.0,
+                       'total misses': 128.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 2,
+                       'level': 'L3',
+                       'total evicts': 128.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 2.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 1.0,
+                       'total loads': 128.0,
+                       'total misses': 128.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 3,
+                       'level': 'MEM',
+                       'total evicts': 0.0,
+                       'total hits': 128.0,
+                       'total lines evicts': 0.0,
+                       'total lines hits': 2.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 0.0,
+                       'total lines stores': 2.0,
+                       'total loads': 128.0,
+                       'total misses': 0.0,
+                       'total stores': 128.0}]}
+Bottlenecks:
+  level | a. intensity |   performance   |   peak bandwidth  | peak bandwidth kernel
+--------+--------------+-----------------+-------------------+----------------------
+    CPU |              |  176.00 GFLOP/s |                   |
+     L1 |  0.46 FLOP/B |  156.50 GFLOP/s |       338.55 GB/s | triad   
+     L2 |   2.0 FLOP/B |  773.37 GFLOP/s |       378.80 GB/s | copy    
+     L3 |   2.0 FLOP/B |  491.41 GFLOP/s |       240.69 GB/s | copy    
+    MEM |   1.5 FLOP/B |   56.99 GFLOP/s |        37.22 GB/s | update  
+
+Cache or mem bound.
+56.99 GFLOP/s due to MEM transfer bottleneck (with bw from update benchmark)
+Arithmetic Intensity: 1.53 FLOP/B
+
+                                   kerncraft                                    
+/home/hpc/ihpc/ihpc07/THESIS/stempelvalidation/stencils/2D/3r/homogeneous/box/constant/2d-3r-homogeneous-constant-box-stencil.c            -m IvyBridgeEP_E5-2660v2.yml
+-D N 500 -D M 500
+------------------------------------- ECM --------------------------------------
+double a[M][N];
+double b[M][N];
+double c0;
+
+for(int j=3; j < M-3; j++){
+for(int i=3; i < N-3; i++){
+b[j][i] = c0 * (a[j][i]
++ a[j-3][i-3]
++ a[j-2][i-3]
++ a[j-1][i-3]
++ a[j][i-3]
++ a[j+1][i-3]
++ a[j+2][i-3]
++ a[j+3][i-3]
++ a[j-3][i-2]
++ a[j-2][i-2]
++ a[j-1][i-2]
++ a[j][i-2]
++ a[j+1][i-2]
++ a[j+2][i-2]
++ a[j+3][i-2]
++ a[j-3][i-1]
++ a[j-2][i-1]
++ a[j-1][i-1]
++ a[j][i-1]
++ a[j+1][i-1]
++ a[j+2][i-1]
++ a[j+3][i-1]
++ a[j-3][i]
++ a[j-2][i]
++ a[j-1][i]
++ a[j+1][i]
++ a[j+2][i]
++ a[j+3][i]
++ a[j-3][i+1]
++ a[j-2][i+1]
++ a[j-1][i+1]
++ a[j][i+1]
++ a[j+1][i+1]
++ a[j+2][i+1]
++ a[j+3][i+1]
++ a[j-3][i+2]
++ a[j-2][i+2]
++ a[j-1][i+2]
++ a[j][i+2]
++ a[j+1][i+2]
++ a[j+2][i+2]
++ a[j+3][i+2]
++ a[j-3][i+3]
++ a[j-2][i+3]
++ a[j-1][i+3]
++ a[j][i+3]
++ a[j+1][i+3]
++ a[j+2][i+3]
++ a[j+3][i+3]
+);
+}
+}
+
+
+variables:     name |   type size             
+           ---------+-------------------------
+                  b | double (M, N)    
+                  a | double (M, N)    
+                 c0 | double None      
+           
+
+loop stack:             idx |        min        max       step
+                   ---------+---------------------------------
+                          j |          3      M - 3          1
+                          i |          3      N - 3          1
+                   
+
+data sources:          name |  offsets   ...
+                   ---------+------------...
+                         c0 | None
+                          a | (j + 3, i)
+                            | (j + 2, i + 2)
+                            | (j - 2, i + 1)
+                            | (j - 1, i + 1)
+                            | (j + 3, i + 2)
+                            | (j + 1, i)
+                            | (j + 2, i)
+                            | (j - 3, i + 3)
+                            | (j + 1, i + 1)
+                            | (j + 3, i + 3)
+                            | (j, i + 1)
+                            | (j, i)
+                            | (j + 1, i - 3)
+                            | (j + 3, i - 2)
+                            | (j + 3, i - 1)
+                            | (j - 1, i - 2)
+                            | (j - 2, i - 1)
+                            | (j - 1, i - 1)
+                            | (j - 2, i - 2)
+                            | (j, i + 2)
+                            | (j + 3, i + 1)
+                            | (j - 2, i + 2)
+                            | (j - 1, i + 2)
+                            | (j + 1, i + 3)
+                            | (j + 2, i + 3)
+                            | (j + 1, i + 2)
+                            | (j - 2, i + 3)
+                            | (j - 1, i + 3)
+                            | (j - 3, i)
+                            | (j - 3, i + 2)
+                            | (j + 1, i - 2)
+                            | (j + 2, i + 1)
+                            | (j - 2, i)
+                            | (j - 1, i)
+                            | (j + 3, i - 3)
+                            | (j + 2, i - 3)
+                            | (j - 3, i - 3)
+                            | (j - 3, i - 2)
+                            | (j - 3, i - 1)
+                            | (j, i + 3)
+                            | (j - 1, i - 3)
+                            | (j + 2, i - 2)
+                            | (j + 2, i - 1)
+                            | (j - 3, i + 1)
+                            | (j + 1, i - 1)
+                            | (j, i - 2)
+                            | (j - 2, i - 3)
+                            | (j, i - 3)
+                            | (j, i - 1)
+                   
+
+data destinations:     name |  offsets   ...
+                   ---------+------------...
+                          b | (j, i)
+                   
+
+FLOPs:      op | count 
+           ----+-------
+             + |   48
+             * |    1
+                =======
+                   49
+
+constants:     name | value     
+           ---------+-----------
+                  N | 500       
+                  M | 500       
+           
+
+Ports and cycles: {'1': 96.0, '5': 54.0, '3D': 139.0, '4': 6.0, '2': 140.2, '3': 139.8, '0': 48.0, '0DV': 0.0, '2D': 139.0}
+Uops: 484.0
+Throughput: 4.95 GFLOP/s
+T_nOL = 139.0 cy/CL
+T_OL = 174.1 cy/CL
+{'cache stats': [{'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 131376,
+                  'HIT_count': 16422,
+                  'LOAD_byte': 134400,
+                  'LOAD_count': 16506,
+                  'MISS_byte': 3024,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 336,
+                  'name': 'L1'},
+                 {'EVICT_byte': 2688,
+                  'EVICT_count': 42,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 5376,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L2'},
+                 {'EVICT_byte': 5376,
+                  'EVICT_count': 84,
+                  'HIT_byte': 0,
+                  'HIT_count': 0,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 5376,
+                  'MISS_count': 84,
+                  'STORE_byte': 2688,
+                  'STORE_count': 42,
+                  'name': 'L3'},
+                 {'EVICT_byte': 0,
+                  'EVICT_count': 0,
+                  'HIT_byte': 5376,
+                  'HIT_count': 84,
+                  'LOAD_byte': 5376,
+                  'LOAD_count': 84,
+                  'MISS_byte': 0,
+                  'MISS_count': 0,
+                  'STORE_byte': 5376,
+                  'STORE_count': 84,
+                  'name': 'MEM'}],
+ 'cachelines in stats': 42,
+ 'memory hierarchy': [{'cycles': None,
+                       'index': 0,
+                       'level': 'L1',
+                       'total evicts': 64.0,
+                       'total hits': 3128.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 391.0,
+                       'total lines load': 393.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 8.0,
+                       'total loads': 3200.0,
+                       'total misses': 72.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 1,
+                       'level': 'L2',
+                       'total evicts': 64.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 1.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 1.0,
+                       'total loads': 128.0,
+                       'total misses': 128.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 2,
+                       'level': 'L3',
+                       'total evicts': 128.0,
+                       'total hits': 0.0,
+                       'total lines evicts': 2.0,
+                       'total lines hits': 0.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 2.0,
+                       'total lines stores': 1.0,
+                       'total loads': 128.0,
+                       'total misses': 128.0,
+                       'total stores': 64.0},
+                      {'cycles': None,
+                       'index': 3,
+                       'level': 'MEM',
+                       'total evicts': 0.0,
+                       'total hits': 128.0,
+                       'total lines evicts': 0.0,
+                       'total lines hits': 2.0,
+                       'total lines load': 2.0,
+                       'total lines misses': 0.0,
+                       'total lines stores': 2.0,
+                       'total loads': 128.0,
+                       'total misses': 0.0,
+                       'total stores': 128.0}]}
+L2 = 143.73 GFLOP/s
+L3 = 143.73 GFLOP/s
+MEM = 57.80 GFLOP/s
+memory cycles based on update kernel with 37.75 GB/s
+{ 174.1 || 139.0 | 6.0 | 6.0 | 14.9 } cy/CL = 4.95 GFLOP/s
+{ 174.1 \ 174.1 \ 174.1 \ 174.1 } cy/CL
+saturating at 11.7 cores
+

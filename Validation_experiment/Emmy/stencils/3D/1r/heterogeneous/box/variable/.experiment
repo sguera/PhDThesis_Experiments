@@ -1,0 +1,19 @@
+{
+	"project_name": "3d-1r-heterogeneous-variable-box-stencil",
+	"nthreads": [
+		1,
+		10
+	],
+	"parameters": [
+		"250 250 250"
+	],
+	"executions": 5,
+	"par_names": "M_MAX N_MAX P_MAX",
+	"pin_strat": [
+		"node"
+	],
+	"date": "20180815_115408",
+	"methods": [
+		"openMP"
+	]
+}

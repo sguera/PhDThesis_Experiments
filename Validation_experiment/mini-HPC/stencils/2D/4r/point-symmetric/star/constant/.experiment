@@ -1,0 +1,19 @@
+{
+	"project_name": "2d-4r-point-symmetric-constant-star-stencil",
+	"nthreads": [
+		1,
+		10
+	],
+	"parameters": [
+		"12000 12000"
+	],
+	"executions": 5,
+	"par_names": "M_MAX N_MAX",
+	"pin_strat": [
+		"node"
+	],
+	"date": "20180806_103637",
+	"methods": [
+		"openMP"
+	]
+}

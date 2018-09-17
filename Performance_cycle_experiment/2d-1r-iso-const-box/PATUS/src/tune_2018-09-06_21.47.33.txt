@@ -1,0 +1,3009 @@
+(INFO) bench 3000 3000 @EXAMPLE_CB_X=(($0-2)/4),(($0-2)/2),($0-2) @EXAMPLE_CB_Y=4:4:($1-2) @EXAMPLE_CHUNK=1,2,4 @EXAMPLE__UNROLL_P3=0:1:4
+(INFO) Parameter set { 3000 }
+(INFO) Parameter set { 3000 }
+(INFO) Parameter set { 749, 1499, 2998 }
+(INFO) Parameter set { 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 184, 188, 192, 196, 200, 204, 208, 212, 216, 220, 224, 228, 232, 236, 240, 244, 248, 252, 256, 260, 264, 268, 272, 276, 280, 284, 288, 292, 296, 300, 304, 308, 312, 316, 320, 324, 328, 332, 336, 340, 344, 348, 352, 356, 360, 364, 368, 372, 376, 380, 384, 388, 392, 396, 400, 404 }
+(INFO) Parameter set { 1, 2, 4 }
+(INFO) Parameter set { 0, 1, 2, 3, 4 }
+(INFO) Using optimizer: Metaheuristic
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 364, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.656320
+(INFO) Performance in GFlop/s:     5.935768
+(INFO) Bandwidth utilization: 8.645367 GB/s
+(INFO) 36644906476.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 172, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.003900
+(INFO) Performance in GFlop/s:     7.602953
+(INFO) Bandwidth utilization: 11.073601 GB/s
+(INFO) 28609360084.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 300, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.522350
+(INFO) Performance in GFlop/s:     7.895327
+(INFO) Bandwidth utilization: 11.499439 GB/s
+(INFO) 27549923988.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 236, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.582730
+(INFO) Performance in GFlop/s:     7.857440
+(INFO) Bandwidth utilization: 11.444257 GB/s
+(INFO) 27682763064.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 208, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.936643
+(INFO) Performance in GFlop/s:     9.040072
+(INFO) Bandwidth utilization: 13.166746 GB/s
+(INFO) 24061270644.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 308, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.192078
+(INFO) Performance in GFlop/s:     6.966425
+(INFO) Bandwidth utilization: 10.146506 GB/s
+(INFO) 31223426428.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 132, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.712703
+(INFO) Performance in GFlop/s:     9.229047
+(INFO) Bandwidth utilization: 13.441986 GB/s
+(INFO) 23568589056.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 60, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.665414
+(INFO) Performance in GFlop/s:     9.269968
+(INFO) Bandwidth utilization: 13.501586 GB/s
+(INFO) 23464549888.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 260, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       18.859661
+(INFO) Performance in GFlop/s:     5.242302
+(INFO) Bandwidth utilization: 7.635344 GB/s
+(INFO) 41492394314.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.644202
+(INFO) Performance in GFlop/s:     10.251553
+(INFO) Bandwidth utilization: 14.931251 GB/s
+(INFO) 21217823396.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 108, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.030366
+(INFO) Performance in GFlop/s:     8.963260
+(INFO) Bandwidth utilization: 13.054870 GB/s
+(INFO) 24267470404.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 332, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.056713
+(INFO) Performance in GFlop/s:     6.566376
+(INFO) Bandwidth utilization: 9.563840 GB/s
+(INFO) 33125676904.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 236, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.819960
+(INFO) Performance in GFlop/s:     6.249576
+(INFO) Bandwidth utilization: 9.102425 GB/s
+(INFO) 34804866918.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 144, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.611865
+(INFO) Performance in GFlop/s:     6.332878
+(INFO) Bandwidth utilization: 9.223754 GB/s
+(INFO) 34347042876.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 36, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.185809
+(INFO) Performance in GFlop/s:     8.838703
+(INFO) Bandwidth utilization: 12.873454 GB/s
+(INFO) 24609450888.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 376, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.056426
+(INFO) Performance in GFlop/s:     8.200444
+(INFO) Bandwidth utilization: 11.943838 GB/s
+(INFO) 26524860932.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 228, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.578099
+(INFO) Performance in GFlop/s:     6.346605
+(INFO) Bandwidth utilization: 9.243747 GB/s
+(INFO) 34272753664.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 68, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.000442
+(INFO) Performance in GFlop/s:     6.591009
+(INFO) Bandwidth utilization: 9.599717 GB/s
+(INFO) 33001874244.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 52, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.076107
+(INFO) Performance in GFlop/s:     6.149999
+(INFO) Bandwidth utilization: 8.957392 GB/s
+(INFO) 35368402760.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 272, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.464372
+(INFO) Performance in GFlop/s:     9.448063
+(INFO) Bandwidth utilization: 13.760978 GB/s
+(INFO) 23022247536.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 180, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.841388
+(INFO) Performance in GFlop/s:     8.349363
+(INFO) Bandwidth utilization: 12.160737 GB/s
+(INFO) 26051760292.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 120, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.694559
+(INFO) Performance in GFlop/s:     6.299511
+(INFO) Bandwidth utilization: 9.175154 GB/s
+(INFO) 34528972864.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 168, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.684994
+(INFO) Performance in GFlop/s:     8.461112
+(INFO) Bandwidth utilization: 12.323498 GB/s
+(INFO) 25707688908.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 396, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.022484
+(INFO) Performance in GFlop/s:     8.223595
+(INFO) Bandwidth utilization: 11.977558 GB/s
+(INFO) 26450186920.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 64, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.831339
+(INFO) Performance in GFlop/s:     6.666158
+(INFO) Bandwidth utilization: 9.709170 GB/s
+(INFO) 32629836784.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 8, 2, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.724577
+(INFO) Performance in GFlop/s:     7.769849
+(INFO) Bandwidth utilization: 11.316683 GB/s
+(INFO) 27994832336.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 268, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.065841
+(INFO) Performance in GFlop/s:     8.934526
+(INFO) Bandwidth utilization: 13.013019 GB/s
+(INFO) 24345514016.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 48, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.511509
+(INFO) Performance in GFlop/s:     9.405695
+(INFO) Bandwidth utilization: 13.699270 GB/s
+(INFO) 23125949160.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 232, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.370938
+(INFO) Performance in GFlop/s:     7.991960
+(INFO) Bandwidth utilization: 11.640185 GB/s
+(INFO) 27216805794.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 116, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.858518
+(INFO) Performance in GFlop/s:     8.337302
+(INFO) Bandwidth utilization: 12.143170 GB/s
+(INFO) 26089449192.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 84, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.931713
+(INFO) Performance in GFlop/s:     9.044149
+(INFO) Bandwidth utilization: 13.172684 GB/s
+(INFO) 24050410744.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 356, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.024469
+(INFO) Performance in GFlop/s:     8.222238
+(INFO) Bandwidth utilization: 11.975581 GB/s
+(INFO) 26454553372.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 228, 2, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.808389
+(INFO) Performance in GFlop/s:     6.676489
+(INFO) Bandwidth utilization: 9.724218 GB/s
+(INFO) 32579343764.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 104, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.932067
+(INFO) Performance in GFlop/s:     9.043856
+(INFO) Bandwidth utilization: 13.172257 GB/s
+(INFO) 24051201216.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 216, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.261869
+(INFO) Performance in GFlop/s:     6.079747
+(INFO) Bandwidth utilization: 8.855071 GB/s
+(INFO) 35777087584.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 340, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.797834
+(INFO) Performance in GFlop/s:     9.156285
+(INFO) Bandwidth utilization: 13.336008 GB/s
+(INFO) 23755879982.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 8, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.362225
+(INFO) Performance in GFlop/s:     9.541198
+(INFO) Bandwidth utilization: 13.896629 GB/s
+(INFO) 22797520280.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 284, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.824632
+(INFO) Performance in GFlop/s:     7.709231
+(INFO) Bandwidth utilization: 11.228392 GB/s
+(INFO) 28214964068.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 328, 2, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.275869
+(INFO) Performance in GFlop/s:     6.472172
+(INFO) Bandwidth utilization: 9.426632 GB/s
+(INFO) 33607836594.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 284, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.085666
+(INFO) Performance in GFlop/s:     6.553774
+(INFO) Bandwidth utilization: 9.545485 GB/s
+(INFO) 33189378668.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 144, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.518524
+(INFO) Performance in GFlop/s:     8.583395
+(INFO) Bandwidth utilization: 12.501602 GB/s
+(INFO) 25341448768.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 172, 2, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.453532
+(INFO) Performance in GFlop/s:     7.938956
+(INFO) Bandwidth utilization: 11.562985 GB/s
+(INFO) 27398523060.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 164, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.854017
+(INFO) Performance in GFlop/s:     9.108890
+(INFO) Bandwidth utilization: 13.266978 GB/s
+(INFO) 23879491228.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 312, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.586657
+(INFO) Performance in GFlop/s:     5.960698
+(INFO) Bandwidth utilization: 8.681677 GB/s
+(INFO) 36491650472.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 352, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.903150
+(INFO) Performance in GFlop/s:     6.216884
+(INFO) Bandwidth utilization: 9.054810 GB/s
+(INFO) 34987893948.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 380, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.823776
+(INFO) Performance in GFlop/s:     6.669559
+(INFO) Bandwidth utilization: 9.714124 GB/s
+(INFO) 32613203352.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 176, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.515919
+(INFO) Performance in GFlop/s:     6.372039
+(INFO) Bandwidth utilization: 9.280791 GB/s
+(INFO) 34135959108.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 148, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.528969
+(INFO) Performance in GFlop/s:     8.575619
+(INFO) Bandwidth utilization: 12.490276 GB/s
+(INFO) 25364425160.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 260, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.373608
+(INFO) Performance in GFlop/s:     7.392773
+(INFO) Bandwidth utilization: 10.767476 GB/s
+(INFO) 29422747678.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 32, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.485875
+(INFO) Performance in GFlop/s:     8.607794
+(INFO) Bandwidth utilization: 12.537138 GB/s
+(INFO) 25269617804.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 312, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.970029
+(INFO) Performance in GFlop/s:     7.622808
+(INFO) Bandwidth utilization: 11.102520 GB/s
+(INFO) 28534845808.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 180, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.688449
+(INFO) Performance in GFlop/s:     6.301964
+(INFO) Bandwidth utilization: 9.178728 GB/s
+(INFO) 34515537344.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 176, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.534314
+(INFO) Performance in GFlop/s:     7.887791
+(INFO) Bandwidth utilization: 11.488463 GB/s
+(INFO) 27576242478.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 376, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.847746
+(INFO) Performance in GFlop/s:     6.658791
+(INFO) Bandwidth utilization: 9.698442 GB/s
+(INFO) 32665938076.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 260, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       17.822681
+(INFO) Performance in GFlop/s:     5.547316
+(INFO) Bandwidth utilization: 8.079593 GB/s
+(INFO) 39210976654.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 380, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.621074
+(INFO) Performance in GFlop/s:     9.308667
+(INFO) Bandwidth utilization: 13.557951 GB/s
+(INFO) 23367004772.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 104, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.496250
+(INFO) Performance in GFlop/s:     9.419368
+(INFO) Bandwidth utilization: 13.719186 GB/s
+(INFO) 23092381820.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 116, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.101136
+(INFO) Performance in GFlop/s:     8.906120
+(INFO) Bandwidth utilization: 12.971645 GB/s
+(INFO) 24423168856.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 352, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.951817
+(INFO) Performance in GFlop/s:     6.197917
+(INFO) Bandwidth utilization: 9.027185 GB/s
+(INFO) 35094961676.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 332, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.991969
+(INFO) Performance in GFlop/s:     6.182356
+(INFO) Bandwidth utilization: 9.004520 GB/s
+(INFO) 35183299188.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 52, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.711511
+(INFO) Performance in GFlop/s:     9.230075
+(INFO) Bandwidth utilization: 13.443482 GB/s
+(INFO) 23565968804.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.083125
+(INFO) Performance in GFlop/s:     7.020320
+(INFO) Bandwidth utilization: 10.225003 GB/s
+(INFO) 30983723744.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 312, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.358681
+(INFO) Performance in GFlop/s:     6.437274
+(INFO) Bandwidth utilization: 9.375805 GB/s
+(INFO) 33790027896.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 300, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.656501
+(INFO) Performance in GFlop/s:     7.239632
+(INFO) Bandwidth utilization: 10.544429 GB/s
+(INFO) 30045126242.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 376, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.553608
+(INFO) Performance in GFlop/s:     9.368175
+(INFO) Bandwidth utilization: 13.644623 GB/s
+(INFO) 23218571032.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 92, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.509579
+(INFO) Performance in GFlop/s:     9.407422
+(INFO) Bandwidth utilization: 13.701786 GB/s
+(INFO) 23121706624.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 96, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.127157
+(INFO) Performance in GFlop/s:     8.885292
+(INFO) Bandwidth utilization: 12.941311 GB/s
+(INFO) 24480414500.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 216, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.646273
+(INFO) Performance in GFlop/s:     5.939350
+(INFO) Bandwidth utilization: 8.650585 GB/s
+(INFO) 36622806248.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 284, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.694991
+(INFO) Performance in GFlop/s:     8.453879
+(INFO) Bandwidth utilization: 12.312964 GB/s
+(INFO) 25729680192.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 328, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.063099
+(INFO) Performance in GFlop/s:     6.154979
+(INFO) Bandwidth utilization: 8.964646 GB/s
+(INFO) 35339786068.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 284, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       16.100755
+(INFO) Performance in GFlop/s:     6.140584
+(INFO) Bandwidth utilization: 8.943680 GB/s
+(INFO) 35422629558.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 240, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.477647
+(INFO) Performance in GFlop/s:     8.613965
+(INFO) Bandwidth utilization: 12.546126 GB/s
+(INFO) 25251514084.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 312, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.997474
+(INFO) Performance in GFlop/s:     6.180228
+(INFO) Bandwidth utilization: 9.001421 GB/s
+(INFO) 35195405894.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 104, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.820053
+(INFO) Performance in GFlop/s:     9.137482
+(INFO) Bandwidth utilization: 13.308622 GB/s
+(INFO) 23804766484.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.560452082456348, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=98, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.644202
+Performance in GFlop/s:     10.251553
+Bandwidth utilization: 14.931251 GB/s
+21217823396.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 116, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.041352
+(INFO) Performance in GFlop/s:     8.954342
+(INFO) Bandwidth utilization: 13.041881 GB/s
+(INFO) 24291635180.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.755506
+(INFO) Performance in GFlop/s:     9.192319
+(INFO) Bandwidth utilization: 13.388492 GB/s
+(INFO) 23662758292.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 52, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.896446
+(INFO) Performance in GFlop/s:     8.310721
+(INFO) Bandwidth utilization: 12.104455 GB/s
+(INFO) 26172895264.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.364442
+(INFO) Performance in GFlop/s:     10.557815
+(INFO) Bandwidth utilization: 15.377318 GB/s
+(INFO) 20602330812.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 240, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.749696
+(INFO) Performance in GFlop/s:     7.754541
+(INFO) Bandwidth utilization: 11.294387 GB/s
+(INFO) 28050095788.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 148, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.948203
+(INFO) Performance in GFlop/s:     8.274721
+(INFO) Bandwidth utilization: 12.052021 GB/s
+(INFO) 26286762300.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 228, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.653493
+(INFO) Performance in GFlop/s:     8.483984
+(INFO) Bandwidth utilization: 12.356810 GB/s
+(INFO) 25638381552.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 284, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.899884
+(INFO) Performance in GFlop/s:     8.308320
+(INFO) Bandwidth utilization: 12.100958 GB/s
+(INFO) 26180459880.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 272, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.088880
+(INFO) Performance in GFlop/s:     8.915963
+(INFO) Bandwidth utilization: 12.985982 GB/s
+(INFO) 24396202996.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 380, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.223731
+(INFO) Performance in GFlop/s:     8.808839
+(INFO) Bandwidth utilization: 12.829958 GB/s
+(INFO) 24692881260.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 240, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.783624
+(INFO) Performance in GFlop/s:     9.168351
+(INFO) Bandwidth utilization: 13.353581 GB/s
+(INFO) 23724618920.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 84, 1, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.917808
+(INFO) Performance in GFlop/s:     6.627518
+(INFO) Bandwidth utilization: 9.652893 GB/s
+(INFO) 32820074720.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 356, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.727289
+(INFO) Performance in GFlop/s:     8.430597
+(INFO) Bandwidth utilization: 12.279053 GB/s
+(INFO) 25800739928.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 36, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.684296
+(INFO) Performance in GFlop/s:     6.732910
+(INFO) Bandwidth utilization: 9.806395 GB/s
+(INFO) 32306334412.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 240, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.959670
+(INFO) Performance in GFlop/s:     8.266787
+(INFO) Bandwidth utilization: 12.040466 GB/s
+(INFO) 26311993380.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 32, 1, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.451173
+(INFO) Performance in GFlop/s:     6.841524
+(INFO) Bandwidth utilization: 9.964589 GB/s
+(INFO) 31793450328.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 88, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.236261
+(INFO) Performance in GFlop/s:     8.799016
+(INFO) Bandwidth utilization: 12.815651 GB/s
+(INFO) 24720448052.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 168, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.964823
+(INFO) Performance in GFlop/s:     7.625869
+(INFO) Bandwidth utilization: 11.106978 GB/s
+(INFO) 28523390944.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 184, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.361813
+(INFO) Performance in GFlop/s:     8.701784
+(INFO) Bandwidth utilization: 12.674034 GB/s
+(INFO) 24996670924.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 396, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.931468
+(INFO) Performance in GFlop/s:     9.955028
+(INFO) Bandwidth utilization: 14.499367 GB/s
+(INFO) 21849822728.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 272, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.120118
+(INFO) Performance in GFlop/s:     9.769456
+(INFO) Bandwidth utilization: 14.229083 GB/s
+(INFO) 22264865524.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5699450070729418, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=1, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.364442
+Performance in GFlop/s:     10.557815
+Bandwidth utilization: 15.377318 GB/s
+20602330812.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.882329
+(INFO) Performance in GFlop/s:     10.004529
+(INFO) Bandwidth utilization: 14.571464 GB/s
+(INFO) 21741714188.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 240, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.639282
+(INFO) Performance in GFlop/s:     9.292736
+(INFO) Bandwidth utilization: 13.534748 GB/s
+(INFO) 23407057392.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 84, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.415942
+(INFO) Performance in GFlop/s:     9.491993
+(INFO) Bandwidth utilization: 13.824962 GB/s
+(INFO) 22915696120.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 272, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.760236
+(INFO) Performance in GFlop/s:     9.188278
+(INFO) Bandwidth utilization: 13.382606 GB/s
+(INFO) 23673164716.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 240, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.533703
+(INFO) Performance in GFlop/s:     9.385877
+(INFO) Bandwidth utilization: 13.670406 GB/s
+(INFO) 23174777480.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 8, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.172661
+(INFO) Performance in GFlop/s:     8.849104
+(INFO) Bandwidth utilization: 12.888604 GB/s
+(INFO) 24580524436.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 232, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.723556
+(INFO) Performance in GFlop/s:     8.433281
+(INFO) Bandwidth utilization: 12.282963 GB/s
+(INFO) 25792526952.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 272, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.222813
+(INFO) Performance in GFlop/s:     9.671315
+(INFO) Bandwidth utilization: 14.086143 GB/s
+(INFO) 22490799036.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 92, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.356343
+(INFO) Performance in GFlop/s:     9.546617
+(INFO) Bandwidth utilization: 13.904522 GB/s
+(INFO) 22784572020.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 48, 2, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.324602
+(INFO) Performance in GFlop/s:     8.022007
+(INFO) Bandwidth utilization: 11.683947 GB/s
+(INFO) 27114860876.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 132, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.521965
+(INFO) Performance in GFlop/s:     9.396348
+(INFO) Bandwidth utilization: 13.685657 GB/s
+(INFO) 23148951788.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 128, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.473873
+(INFO) Performance in GFlop/s:     10.435863
+(INFO) Bandwidth utilization: 15.199697 GB/s
+(INFO) 20843086568.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 164, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.380899
+(INFO) Performance in GFlop/s:     9.524035
+(INFO) Bandwidth utilization: 13.871631 GB/s
+(INFO) 22838598580.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5699450070729418, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=1, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.364442
+Performance in GFlop/s:     10.557815
+Bandwidth utilization: 15.377318 GB/s
+20602330812.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 84, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.777041
+(INFO) Performance in GFlop/s:     10.112267
+(INFO) Bandwidth utilization: 14.728383 GB/s
+(INFO) 21510071924.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.581307
+(INFO) Performance in GFlop/s:     7.279715
+(INFO) Bandwidth utilization: 10.602809 GB/s
+(INFO) 29879689020.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 8, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.051587
+(INFO) Performance in GFlop/s:     8.946049
+(INFO) Bandwidth utilization: 13.029803 GB/s
+(INFO) 24314152848.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 8, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.499243
+(INFO) Performance in GFlop/s:     8.597787
+(INFO) Bandwidth utilization: 12.522563 GB/s
+(INFO) 25299023188.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 164, 1, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.706447
+(INFO) Performance in GFlop/s:     8.445606
+(INFO) Bandwidth utilization: 12.300914 GB/s
+(INFO) 25754884088.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 28, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.478828
+(INFO) Performance in GFlop/s:     9.435029
+(INFO) Bandwidth utilization: 13.741995 GB/s
+(INFO) 23054037132.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5699450070729418, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=1, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.364442
+Performance in GFlop/s:     10.557815
+Bandwidth utilization: 15.377318 GB/s
+20602330812.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.159504
+(INFO) Performance in GFlop/s:     10.794039
+(INFO) Bandwidth utilization: 15.721375 GB/s
+(INFO) 20151452304.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 36, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.188775
+(INFO) Performance in GFlop/s:     9.703624
+(INFO) Bandwidth utilization: 14.133200 GB/s
+(INFO) 22415913056.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.769928
+(INFO) Performance in GFlop/s:     7.179997
+(INFO) Bandwidth utilization: 10.457571 GB/s
+(INFO) 30294707220.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 288, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.242901
+(INFO) Performance in GFlop/s:     8.793820
+(INFO) Bandwidth utilization: 12.808082 GB/s
+(INFO) 24735086378.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 248, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.875953
+(INFO) Performance in GFlop/s:     8.325062
+(INFO) Bandwidth utilization: 12.125343 GB/s
+(INFO) 26127839266.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 256, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.260923
+(INFO) Performance in GFlop/s:     7.455593
+(INFO) Bandwidth utilization: 10.858973 GB/s
+(INFO) 29174864276.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 44, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.958265
+(INFO) Performance in GFlop/s:     6.609593
+(INFO) Bandwidth utilization: 9.626785 GB/s
+(INFO) 32909122932.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.702655
+(INFO) Performance in GFlop/s:     10.189793
+(INFO) Bandwidth utilization: 14.841299 GB/s
+(INFO) 21346447040.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 396, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.399965
+(INFO) Performance in GFlop/s:     8.672662
+(INFO) Bandwidth utilization: 12.631618 GB/s
+(INFO) 25080636352.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 80, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.652266
+(INFO) Performance in GFlop/s:     9.281410
+(INFO) Bandwidth utilization: 13.518251 GB/s
+(INFO) 23435651412.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 364, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.652574
+(INFO) Performance in GFlop/s:     9.281141
+(INFO) Bandwidth utilization: 13.517860 GB/s
+(INFO) 23436327312.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.554392
+(INFO) Performance in GFlop/s:     10.347916
+(INFO) Bandwidth utilization: 15.071603 GB/s
+(INFO) 21020258876.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 32, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.608440
+(INFO) Performance in GFlop/s:     9.319753
+(INFO) Bandwidth utilization: 13.574097 GB/s
+(INFO) 23339230288.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.239453
+(INFO) Performance in GFlop/s:     8.796517
+(INFO) Bandwidth utilization: 12.812011 GB/s
+(INFO) 24727499120.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 236, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.836867
+(INFO) Performance in GFlop/s:     9.123305
+(INFO) Bandwidth utilization: 13.287974 GB/s
+(INFO) 23841786096.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.611944
+(INFO) Performance in GFlop/s:     7.263330
+(INFO) Bandwidth utilization: 10.578945 GB/s
+(INFO) 29947130064.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 208, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.974062
+(INFO) Performance in GFlop/s:     9.009248
+(INFO) Bandwidth utilization: 13.121850 GB/s
+(INFO) 24143620258.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 384, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.331112
+(INFO) Performance in GFlop/s:     10.595526
+(INFO) Bandwidth utilization: 15.432244 GB/s
+(INFO) 20529027096.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.206875
+(INFO) Performance in GFlop/s:     10.738502
+(INFO) Bandwidth utilization: 15.640486 GB/s
+(INFO) 20255698152.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 356, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.877474
+(INFO) Performance in GFlop/s:     9.089247
+(INFO) Bandwidth utilization: 13.238368 GB/s
+(INFO) 23931121758.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.043058
+(INFO) Performance in GFlop/s:     8.952959
+(INFO) Bandwidth utilization: 13.039866 GB/s
+(INFO) 24295417752.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 272, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.282771
+(INFO) Performance in GFlop/s:     9.614922
+(INFO) Bandwidth utilization: 14.004007 GB/s
+(INFO) 22622737760.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.174963
+(INFO) Performance in GFlop/s:     9.716796
+(INFO) Bandwidth utilization: 14.152386 GB/s
+(INFO) 22385553180.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 120, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.467563
+(INFO) Performance in GFlop/s:     9.445182
+(INFO) Bandwidth utilization: 13.756783 GB/s
+(INFO) 23029291680.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.837183
+(INFO) Performance in GFlop/s:     9.123039
+(INFO) Bandwidth utilization: 13.287586 GB/s
+(INFO) 23842479924.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 348, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.872581
+(INFO) Performance in GFlop/s:     9.093337
+(INFO) Bandwidth utilization: 13.244325 GB/s
+(INFO) 23920358132.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 372, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.097669
+(INFO) Performance in GFlop/s:     9.791175
+(INFO) Bandwidth utilization: 14.260717 GB/s
+(INFO) 22215502164.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 100, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.825145
+(INFO) Performance in GFlop/s:     9.133184
+(INFO) Bandwidth utilization: 13.302362 GB/s
+(INFO) 23815991808.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 364, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.418613
+(INFO) Performance in GFlop/s:     9.489559
+(INFO) Bandwidth utilization: 13.821418 GB/s
+(INFO) 22921596368.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 384, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.559367
+(INFO) Performance in GFlop/s:     10.342530
+(INFO) Bandwidth utilization: 15.063759 GB/s
+(INFO) 21031203152.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 348, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.135633
+(INFO) Performance in GFlop/s:     8.146921
+(INFO) Bandwidth utilization: 11.865883 GB/s
+(INFO) 26699151418.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.369364
+(INFO) Performance in GFlop/s:     10.552268
+(INFO) Bandwidth utilization: 15.369240 GB/s
+(INFO) 20613183014.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.867769
+(INFO) Performance in GFlop/s:     7.683387
+(INFO) Bandwidth utilization: 11.190751 GB/s
+(INFO) 28309896048.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 44, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.820487
+(INFO) Performance in GFlop/s:     9.137116
+(INFO) Bandwidth utilization: 13.308089 GB/s
+(INFO) 23805747856.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 272, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.109533
+(INFO) Performance in GFlop/s:     7.541691
+(INFO) Bandwidth utilization: 10.984373 GB/s
+(INFO) 28841789858.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 244, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.822807
+(INFO) Performance in GFlop/s:     8.362485
+(INFO) Bandwidth utilization: 12.179849 GB/s
+(INFO) 26010913226.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 56, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.514633
+(INFO) Performance in GFlop/s:     9.402900
+(INFO) Bandwidth utilization: 13.695200 GB/s
+(INFO) 23132845964.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 12, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.920839
+(INFO) Performance in GFlop/s:     9.053155
+(INFO) Bandwidth utilization: 13.185800 GB/s
+(INFO) 24026523620.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 2, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.978183
+(INFO) Performance in GFlop/s:     7.618019
+(INFO) Bandwidth utilization: 11.095544 GB/s
+(INFO) 28552810788.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 24, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.371906
+(INFO) Performance in GFlop/s:     9.532293
+(INFO) Bandwidth utilization: 13.883659 GB/s
+(INFO) 22818838496.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 264, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.116927
+(INFO) Performance in GFlop/s:     7.537440
+(INFO) Bandwidth utilization: 10.978181 GB/s
+(INFO) 28858056636.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 348, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.750837
+(INFO) Performance in GFlop/s:     9.196311
+(INFO) Bandwidth utilization: 13.394306 GB/s
+(INFO) 23652508398.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 328, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.447081
+(INFO) Performance in GFlop/s:     8.636965
+(INFO) Bandwidth utilization: 12.579626 GB/s
+(INFO) 25184287068.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 200, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.700262
+(INFO) Performance in GFlop/s:     9.239778
+(INFO) Bandwidth utilization: 13.457615 GB/s
+(INFO) 23541241408.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 316, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.753246
+(INFO) Performance in GFlop/s:     8.411978
+(INFO) Bandwidth utilization: 12.251934 GB/s
+(INFO) 25857873840.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 188, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.387305
+(INFO) Performance in GFlop/s:     10.532101
+(INFO) Bandwidth utilization: 15.339866 GB/s
+(INFO) 20652650452.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 64, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.297709
+(INFO) Performance in GFlop/s:     9.600975
+(INFO) Bandwidth utilization: 13.983693 GB/s
+(INFO) 22655597496.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 108, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.922681
+(INFO) Performance in GFlop/s:     9.963844
+(INFO) Bandwidth utilization: 14.512207 GB/s
+(INFO) 21830512016.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 180, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.445621
+(INFO) Performance in GFlop/s:     9.465023
+(INFO) Bandwidth utilization: 13.785681 GB/s
+(INFO) 22981012608.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 356, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.562213
+(INFO) Performance in GFlop/s:     9.360543
+(INFO) Bandwidth utilization: 13.633507 GB/s
+(INFO) 23237521956.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 140, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.071503
+(INFO) Performance in GFlop/s:     8.929957
+(INFO) Bandwidth utilization: 13.006364 GB/s
+(INFO) 24357993692.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.259169
+(INFO) Performance in GFlop/s:     7.456579
+(INFO) Bandwidth utilization: 10.860409 GB/s
+(INFO) 29170997232.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 2, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.138795
+(INFO) Performance in GFlop/s:     6.992678
+(INFO) Bandwidth utilization: 10.184743 GB/s
+(INFO) 31106230668.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 172, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.942102
+(INFO) Performance in GFlop/s:     9.035562
+(INFO) Bandwidth utilization: 13.160177 GB/s
+(INFO) 24073301140.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 36, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.545903
+(INFO) Performance in GFlop/s:     9.375019
+(INFO) Bandwidth utilization: 13.654592 GB/s
+(INFO) 23201638848.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 292, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.802136
+(INFO) Performance in GFlop/s:     8.377131
+(INFO) Bandwidth utilization: 12.201181 GB/s
+(INFO) 25965429330.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 352, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.994294
+(INFO) Performance in GFlop/s:     8.992669
+(INFO) Bandwidth utilization: 13.097703 GB/s
+(INFO) 24188129966.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 32, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.417056
+(INFO) Performance in GFlop/s:     9.490978
+(INFO) Bandwidth utilization: 13.823484 GB/s
+(INFO) 22918166928.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 212, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.053221
+(INFO) Performance in GFlop/s:     8.944727
+(INFO) Bandwidth utilization: 13.027877 GB/s
+(INFO) 24317769848.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 364, 1, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.399703
+(INFO) Performance in GFlop/s:     9.506814
+(INFO) Bandwidth utilization: 13.846549 GB/s
+(INFO) 22879991612.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 324, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.340782
+(INFO) Performance in GFlop/s:     8.011489
+(INFO) Bandwidth utilization: 11.668628 GB/s
+(INFO) 27150484272.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 188, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.269079
+(INFO) Performance in GFlop/s:     10.666436
+(INFO) Bandwidth utilization: 15.535524 GB/s
+(INFO) 20392548976.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 156, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.835703
+(INFO) Performance in GFlop/s:     8.353373
+(INFO) Bandwidth utilization: 12.166578 GB/s
+(INFO) 26039282606.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 12, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.646184
+(INFO) Performance in GFlop/s:     8.489308
+(INFO) Bandwidth utilization: 12.364565 GB/s
+(INFO) 25622327420.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 196, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.631041
+(INFO) Performance in GFlop/s:     10.265561
+(INFO) Bandwidth utilization: 14.951655 GB/s
+(INFO) 21188885504.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 320, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.674828
+(INFO) Performance in GFlop/s:     8.468480
+(INFO) Bandwidth utilization: 12.334229 GB/s
+(INFO) 25685345310.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 352, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.633065
+(INFO) Performance in GFlop/s:     9.298170
+(INFO) Bandwidth utilization: 13.542662 GB/s
+(INFO) 23393402940.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 164, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.047330
+(INFO) Performance in GFlop/s:     8.949497
+(INFO) Bandwidth utilization: 13.034824 GB/s
+(INFO) 24304811174.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 276, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.010657
+(INFO) Performance in GFlop/s:     8.231693
+(INFO) Bandwidth utilization: 11.989353 GB/s
+(INFO) 26424190728.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 228, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.047462
+(INFO) Performance in GFlop/s:     7.577569
+(INFO) Bandwidth utilization: 11.036629 GB/s
+(INFO) 28705225760.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 92, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.280440
+(INFO) Performance in GFlop/s:     9.617102
+(INFO) Bandwidth utilization: 14.007182 GB/s
+(INFO) 22617603932.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 368, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.216958
+(INFO) Performance in GFlop/s:     9.676857
+(INFO) Bandwidth utilization: 14.094215 GB/s
+(INFO) 22477937540.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 168, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.195503
+(INFO) Performance in GFlop/s:     8.831050
+(INFO) Bandwidth utilization: 12.862307 GB/s
+(INFO) 24630797304.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 192, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.438783
+(INFO) Performance in GFlop/s:     10.474660
+(INFO) Bandwidth utilization: 15.256204 GB/s
+(INFO) 20765903424.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 72, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.568428
+(INFO) Performance in GFlop/s:     9.355038
+(INFO) Bandwidth utilization: 13.625489 GB/s
+(INFO) 23251193568.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 56, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.452272
+(INFO) Performance in GFlop/s:     9.459000
+(INFO) Bandwidth utilization: 13.776909 GB/s
+(INFO) 22995644672.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 392, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.510120
+(INFO) Performance in GFlop/s:     10.396088
+(INFO) Bandwidth utilization: 15.141765 GB/s
+(INFO) 20922848424.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 152, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.081784
+(INFO) Performance in GFlop/s:     8.183232
+(INFO) Bandwidth utilization: 11.918770 GB/s
+(INFO) 26580671822.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 88, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.641822
+(INFO) Performance in GFlop/s:     9.290519
+(INFO) Bandwidth utilization: 13.531518 GB/s
+(INFO) 23412664760.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 400, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.716029
+(INFO) Performance in GFlop/s:     10.175767
+(INFO) Bandwidth utilization: 14.820870 GB/s
+(INFO) 21375862192.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 364, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.345385
+(INFO) Performance in GFlop/s:     9.556729
+(INFO) Bandwidth utilization: 13.919250 GB/s
+(INFO) 22760482358.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 76, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.544303
+(INFO) Performance in GFlop/s:     10.358854
+(INFO) Bandwidth utilization: 15.087535 GB/s
+(INFO) 20998054592.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 280, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.974364
+(INFO) Performance in GFlop/s:     8.256643
+(INFO) Bandwidth utilization: 12.025691 GB/s
+(INFO) 26344340360.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 128, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.846046
+(INFO) Performance in GFlop/s:     7.140525
+(INFO) Bandwidth utilization: 10.400081 GB/s
+(INFO) 30462157108.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 268, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.194030
+(INFO) Performance in GFlop/s:     7.493392
+(INFO) Bandwidth utilization: 10.914027 GB/s
+(INFO) 29027682744.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 336, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.073471
+(INFO) Performance in GFlop/s:     8.928370
+(INFO) Bandwidth utilization: 13.004053 GB/s
+(INFO) 24362318132.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 20, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.355051
+(INFO) Performance in GFlop/s:     9.547808
+(INFO) Bandwidth utilization: 13.906257 GB/s
+(INFO) 22781750188.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 288, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.836912
+(INFO) Performance in GFlop/s:     8.352520
+(INFO) Bandwidth utilization: 12.165335 GB/s
+(INFO) 26041964006.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 320, 4, 2]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       15.456232
+(INFO) Performance in GFlop/s:     6.396646
+(INFO) Bandwidth utilization: 9.316630 GB/s
+(INFO) 34004703012.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 240, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.802843
+(INFO) Performance in GFlop/s:     8.376630
+(INFO) Bandwidth utilization: 12.200450 GB/s
+(INFO) 25967010602.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 160, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.168534
+(INFO) Performance in GFlop/s:     8.852374
+(INFO) Bandwidth utilization: 12.893366 GB/s
+(INFO) 24571489518.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 324, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.529293
+(INFO) Performance in GFlop/s:     8.575378
+(INFO) Bandwidth utilization: 12.489925 GB/s
+(INFO) 25365181112.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 388, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.581832
+(INFO) Performance in GFlop/s:     9.343188
+(INFO) Bandwidth utilization: 13.608230 GB/s
+(INFO) 23280708376.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 360, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.459479
+(INFO) Performance in GFlop/s:     9.452483
+(INFO) Bandwidth utilization: 13.767416 GB/s
+(INFO) 23011523532.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 112, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.832723
+(INFO) Performance in GFlop/s:     9.126795
+(INFO) Bandwidth utilization: 13.293056 GB/s
+(INFO) 23832685952.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 176, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.765591
+(INFO) Performance in GFlop/s:     9.183708
+(INFO) Bandwidth utilization: 13.375949 GB/s
+(INFO) 23684989826.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 376, 2, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.300797
+(INFO) Performance in GFlop/s:     9.598097
+(INFO) Bandwidth utilization: 13.979501 GB/s
+(INFO) 22662411144.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 400, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.541055
+(INFO) Performance in GFlop/s:     8.566638
+(INFO) Bandwidth utilization: 12.477196 GB/s
+(INFO) 25391057900.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 44, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.458306
+(INFO) Performance in GFlop/s:     9.453543
+(INFO) Bandwidth utilization: 13.768961 GB/s
+(INFO) 23008941316.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 252, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.707111
+(INFO) Performance in GFlop/s:     7.212902
+(INFO) Bandwidth utilization: 10.505496 GB/s
+(INFO) 30156522254.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 296, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.769305
+(INFO) Performance in GFlop/s:     8.400500
+(INFO) Bandwidth utilization: 12.235217 GB/s
+(INFO) 25893224536.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 4, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.688269
+(INFO) Performance in GFlop/s:     9.250145
+(INFO) Bandwidth utilization: 13.472715 GB/s
+(INFO) 23514874840.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 300, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.171344
+(INFO) Performance in GFlop/s:     8.123018
+(INFO) Bandwidth utilization: 11.831068 GB/s
+(INFO) 26777734280.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 108, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.478980
+(INFO) Performance in GFlop/s:     8.612964
+(INFO) Bandwidth utilization: 12.544669 GB/s
+(INFO) 25254488804.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 136, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.711005
+(INFO) Performance in GFlop/s:     9.230511
+(INFO) Bandwidth utilization: 13.444117 GB/s
+(INFO) 23564894532.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 364, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.665778
+(INFO) Performance in GFlop/s:     8.475049
+(INFO) Bandwidth utilization: 12.343797 GB/s
+(INFO) 25665456290.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 376, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.178086
+(INFO) Performance in GFlop/s:     8.844810
+(INFO) Bandwidth utilization: 12.882349 GB/s
+(INFO) 24592500356.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 372, 4, 4]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.740199
+(INFO) Performance in GFlop/s:     7.195532
+(INFO) Bandwidth utilization: 10.480197 GB/s
+(INFO) 30229316968.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 208, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.855646
+(INFO) Performance in GFlop/s:     9.107523
+(INFO) Bandwidth utilization: 13.264987 GB/s
+(INFO) 23883112660.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 340, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.979095
+(INFO) Performance in GFlop/s:     9.005118
+(INFO) Bandwidth utilization: 13.115835 GB/s
+(INFO) 24154706984.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 96, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.551700
+(INFO) Performance in GFlop/s:     10.350832
+(INFO) Bandwidth utilization: 15.075850 GB/s
+(INFO) 21014347268.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 144, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.147347
+(INFO) Performance in GFlop/s:     8.869199
+(INFO) Bandwidth utilization: 12.917872 GB/s
+(INFO) 24524873420.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 332, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.205864
+(INFO) Performance in GFlop/s:     8.822885
+(INFO) Bandwidth utilization: 12.850415 GB/s
+(INFO) 24653615968.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 48, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.280927
+(INFO) Performance in GFlop/s:     9.616647
+(INFO) Bandwidth utilization: 14.006519 GB/s
+(INFO) 22618693656.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 184, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.246001
+(INFO) Performance in GFlop/s:     9.649428
+(INFO) Bandwidth utilization: 14.054264 GB/s
+(INFO) 22541851632.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 148, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.127872
+(INFO) Performance in GFlop/s:     8.884722
+(INFO) Bandwidth utilization: 12.940480 GB/s
+(INFO) 24482025634.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 304, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.021700
+(INFO) Performance in GFlop/s:     8.970308
+(INFO) Bandwidth utilization: 13.065135 GB/s
+(INFO) 24248431572.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 204, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.780002
+(INFO) Performance in GFlop/s:     9.171431
+(INFO) Bandwidth utilization: 13.358068 GB/s
+(INFO) 23716691592.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 312, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       11.969042
+(INFO) Performance in GFlop/s:     8.260314
+(INFO) Bandwidth utilization: 12.031038 GB/s
+(INFO) 26332655280.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 52, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.506756
+(INFO) Performance in GFlop/s:     9.409949
+(INFO) Bandwidth utilization: 13.705467 GB/s
+(INFO) 23115529088.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 60, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.559851
+(INFO) Performance in GFlop/s:     9.362636
+(INFO) Bandwidth utilization: 13.636556 GB/s
+(INFO) 23232343380.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 180, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.575933
+(INFO) Performance in GFlop/s:     9.348399
+(INFO) Bandwidth utilization: 13.615820 GB/s
+(INFO) 23267724112.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 40, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.413571
+(INFO) Performance in GFlop/s:     9.494154
+(INFO) Bandwidth utilization: 13.828110 GB/s
+(INFO) 22910517080.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 116, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.886227
+(INFO) Performance in GFlop/s:     9.081938
+(INFO) Bandwidth utilization: 13.227723 GB/s
+(INFO) 23950389292.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 376, 4, 3]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.488782
+(INFO) Performance in GFlop/s:     9.426075
+(INFO) Bandwidth utilization: 13.728954 GB/s
+(INFO) 23075985764.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 244, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       13.261355
+(INFO) Performance in GFlop/s:     7.455350
+(INFO) Bandwidth utilization: 10.858619 GB/s
+(INFO) 29175825798.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 304, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.091129
+(INFO) Performance in GFlop/s:     8.176908
+(INFO) Bandwidth utilization: 11.909558 GB/s
+(INFO) 26601253250.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 749, 140, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.749487
+(INFO) Performance in GFlop/s:     9.197466
+(INFO) Bandwidth utilization: 13.395988 GB/s
+(INFO) 23649555028.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 388, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.714533
+(INFO) Performance in GFlop/s:     10.177334
+(INFO) Bandwidth utilization: 14.823152 GB/s
+(INFO) 21372588608.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 404, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.785277
+(INFO) Performance in GFlop/s:     10.103755
+(INFO) Bandwidth utilization: 14.715986 GB/s
+(INFO) 21528230724.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 380, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.240317
+(INFO) Performance in GFlop/s:     10.699638
+(INFO) Bandwidth utilization: 15.583881 GB/s
+(INFO) 20329284272.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 68, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.733029
+(INFO) Performance in GFlop/s:     9.211570
+(INFO) Bandwidth utilization: 13.416529 GB/s
+(INFO) 23613348896.000000
+(INFO) Validation OK.
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 212, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       12.408820
+(INFO) Performance in GFlop/s:     7.967562
+(INFO) Bandwidth utilization: 11.604649 GB/s
+(INFO) 27300198082.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 272, 4, 0]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       14.580133
+(INFO) Performance in GFlop/s:     6.781011
+(INFO) Bandwidth utilization: 9.876453 GB/s
+(INFO) 32077226412.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 1499, 260, 4, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       9.779070
+(INFO) Performance in GFlop/s:     10.110168
+(INFO) Bandwidth utilization: 14.725327 GB/s
+(INFO) 21514574912.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 172, 2, 1]...
+(INFO) Flops / stencil call:  11
+(INFO) Stencil computations:  8988004000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           98868044000
+(INFO) Seconds elapsed:       10.928875
+(INFO) Performance in GFlop/s:     9.046498
+(INFO) Bandwidth utilization: 13.176105 GB/s
+(INFO) 24044222892.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.5770009228259296, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=93, IntegerGene(0,2)=2, IntegerGene(0,4)=1], Application data:Flops / stencil call:  11
+Stencil computations:  8988004000
+Bytes transferred:     144000000000
+Total Flops:           98868044000
+Seconds elapsed:       9.159504
+Performance in GFlop/s:     10.794039
+Bandwidth utilization: 15.721375 GB/s
+20151452304.000000
+Validation OK.
+
+(INFO) Executing [/home/hpc/ihpc/ihpc07/THESIS_exp/2d-1r-iso-const-box/PATUS/src/bench, 3000, 3000, 2998, 16, 4, 1]...
