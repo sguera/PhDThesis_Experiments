@@ -1,0 +1,10 @@
+#!/bin/bash
+#SBATCH --job-name=provajob-1
+#SBATCH --nodes=1
+#SBATCH --ntasks=1
+#SBATCH --cpus-per-task=20
+#SBATCH --hint=nomultithread
+echo "JOB is going to be executed on:"
+hostname
+source /users/staff/ifi/guerrera/PROVA/util/BaseSetup.sh /users/staff/ifi/guerrera/THESIS_exp
+workflow run_exp -p 2d-4r-iso-const-box -e 10 -d "3000 3000 200" "500 500 200" -m OpenMP PATUS PLUTO --pin none node spread -t 1 2 4 6 8 10 16 20

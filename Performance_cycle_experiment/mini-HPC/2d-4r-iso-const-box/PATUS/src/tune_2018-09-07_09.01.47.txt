@@ -1,0 +1,1729 @@
+(INFO) bench 3000 3000 @EXAMPLE_CB_X=(($0-8)/4),(($0-8)/2),($0-8) @EXAMPLE_CB_Y=4:4:($1-8) @EXAMPLE_CHUNK=1,2,4 @EXAMPLE__UNROLL_P3=0:1:4
+(INFO) Parameter set { 3000 }
+(INFO) Parameter set { 3000 }
+(INFO) Parameter set { 748, 1496, 2992 }
+(INFO) Parameter set { 4, 8, 12, 16, 20, 24, 28, 32, 36, 40, 44, 48, 52, 56, 60, 64, 68, 72, 76, 80, 84, 88, 92, 96, 100, 104, 108, 112, 116, 120, 124, 128, 132, 136, 140, 144, 148, 152, 156, 160, 164, 168, 172, 176, 180, 184, 188, 192, 196, 200, 204, 208, 212, 216, 220, 224, 228, 232, 236, 240, 244, 248, 252, 256, 260, 264, 268, 272, 276, 280, 284, 288, 292, 296, 300, 304, 308, 312, 316, 320, 324, 328, 332, 336, 340, 344, 348, 352, 356, 360, 364, 368, 372, 376, 380, 384, 388, 392, 396, 400, 404 }
+(INFO) Parameter set { 1, 2, 4 }
+(INFO) Parameter set { 0, 1, 2, 3, 4 }
+(INFO) Using optimizer: Metaheuristic
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 380, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.844417
+(INFO) Performance in GFlop/s:     6.089168
+(INFO) Bandwidth utilization: 1.100544 GB/s
+(INFO) 313302666644.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 296, 4, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.540001
+(INFO) Performance in GFlop/s:     5.966255
+(INFO) Bandwidth utilization: 1.078329 GB/s
+(INFO) 319757211560.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 52, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.819898
+(INFO) Performance in GFlop/s:     6.090310
+(INFO) Bandwidth utilization: 1.100750 GB/s
+(INFO) 313243996036.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 288, 2, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.119695
+(INFO) Performance in GFlop/s:     6.170505
+(INFO) Bandwidth utilization: 1.115244 GB/s
+(INFO) 309172925828.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 128, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.957515
+(INFO) Performance in GFlop/s:     7.053393
+(INFO) Bandwidth utilization: 1.274816 GB/s
+(INFO) 270473105508.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 244, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.921750
+(INFO) Performance in GFlop/s:     6.643780
+(INFO) Bandwidth utilization: 1.200783 GB/s
+(INFO) 287148740976.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 296, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.605704
+(INFO) Performance in GFlop/s:     6.147366
+(INFO) Bandwidth utilization: 1.111062 GB/s
+(INFO) 310336658336.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 128, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.619613
+(INFO) Performance in GFlop/s:     6.099648
+(INFO) Bandwidth utilization: 1.102438 GB/s
+(INFO) 312764436216.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 168, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.287167
+(INFO) Performance in GFlop/s:     6.679123
+(INFO) Bandwidth utilization: 1.207171 GB/s
+(INFO) 285629322912.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 160, 2, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.529472
+(INFO) Performance in GFlop/s:     5.922373
+(INFO) Bandwidth utilization: 1.070397 GB/s
+(INFO) 322126461044.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 8, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.311295
+(INFO) Performance in GFlop/s:     7.031370
+(INFO) Bandwidth utilization: 1.270835 GB/s
+(INFO) 271320257944.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 56, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.117632
+(INFO) Performance in GFlop/s:     6.688629
+(INFO) Bandwidth utilization: 1.208889 GB/s
+(INFO) 285223313232.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 116, 4, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       131.935383
+(INFO) Performance in GFlop/s:     6.038817
+(INFO) Bandwidth utilization: 1.091443 GB/s
+(INFO) 315915002448.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 76, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.094288
+(INFO) Performance in GFlop/s:     6.689940
+(INFO) Bandwidth utilization: 1.209126 GB/s
+(INFO) 285167411640.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 376, 2, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.256120
+(INFO) Performance in GFlop/s:     5.934431
+(INFO) Bandwidth utilization: 1.072577 GB/s
+(INFO) 321471936080.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 76, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.530302
+(INFO) Performance in GFlop/s:     6.150944
+(INFO) Bandwidth utilization: 1.111709 GB/s
+(INFO) 310156113036.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 168, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.380585
+(INFO) Performance in GFlop/s:     7.027073
+(INFO) Bandwidth utilization: 1.270059 GB/s
+(INFO) 271486141112.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 304, 4, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.172418
+(INFO) Performance in GFlop/s:     6.685554
+(INFO) Bandwidth utilization: 1.208333 GB/s
+(INFO) 285354494440.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 124, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.821139
+(INFO) Performance in GFlop/s:     6.649358
+(INFO) Bandwidth utilization: 1.201791 GB/s
+(INFO) 286907837196.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 60, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.524617
+(INFO) Performance in GFlop/s:     6.151214
+(INFO) Bandwidth utilization: 1.111758 GB/s
+(INFO) 310142494776.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 168, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.673455
+(INFO) Performance in GFlop/s:     6.097135
+(INFO) Bandwidth utilization: 1.101984 GB/s
+(INFO) 312893352892.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 300, 1, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.892102
+(INFO) Performance in GFlop/s:     5.950565
+(INFO) Bandwidth utilization: 1.075493 GB/s
+(INFO) 320600298960.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 152, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.609282
+(INFO) Performance in GFlop/s:     6.147196
+(INFO) Bandwidth utilization: 1.111032 GB/s
+(INFO) 310345227248.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 12, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.677637
+(INFO) Performance in GFlop/s:     6.096940
+(INFO) Bandwidth utilization: 1.101948 GB/s
+(INFO) 312903370824.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 400, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.523799
+(INFO) Performance in GFlop/s:     6.896706
+(INFO) Bandwidth utilization: 1.246496 GB/s
+(INFO) 276617997340.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.978822
+(INFO) Performance in GFlop/s:     7.052062
+(INFO) Bandwidth utilization: 1.274575 GB/s
+(INFO) 270524131268.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 260, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.641538
+(INFO) Performance in GFlop/s:     6.145667
+(INFO) Bandwidth utilization: 1.110755 GB/s
+(INFO) 310422467196.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 388, 4, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.827707
+(INFO) Performance in GFlop/s:     5.909273
+(INFO) Bandwidth utilization: 1.068030 GB/s
+(INFO) 322840580092.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 92, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.062963
+(INFO) Performance in GFlop/s:     7.046814
+(INFO) Bandwidth utilization: 1.273627 GB/s
+(INFO) 270725602428.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 16, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.393443
+(INFO) Performance in GFlop/s:     6.157450
+(INFO) Bandwidth utilization: 1.112885 GB/s
+(INFO) 309828412032.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 48, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.321690
+(INFO) Performance in GFlop/s:     6.677191
+(INFO) Bandwidth utilization: 1.206822 GB/s
+(INFO) 285711927864.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.996292
+(INFO) Performance in GFlop/s:     7.050972
+(INFO) Bandwidth utilization: 1.274378 GB/s
+(INFO) 270565963492.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 108, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.767527
+(INFO) Performance in GFlop/s:     6.092749
+(INFO) Bandwidth utilization: 1.101191 GB/s
+(INFO) 313118611208.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 180, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.222606
+(INFO) Performance in GFlop/s:     6.682740
+(INFO) Bandwidth utilization: 1.207825 GB/s
+(INFO) 285474674220.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 88, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.909816
+(INFO) Performance in GFlop/s:     6.132975
+(INFO) Bandwidth utilization: 1.108461 GB/s
+(INFO) 311064852936.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 92, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.086422
+(INFO) Performance in GFlop/s:     6.690382
+(INFO) Bandwidth utilization: 1.209206 GB/s
+(INFO) 285148583344.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 96, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.824708
+(INFO) Performance in GFlop/s:     6.090086
+(INFO) Bandwidth utilization: 1.100710 GB/s
+(INFO) 313255539524.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 368, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.657227
+(INFO) Performance in GFlop/s:     5.916754
+(INFO) Bandwidth utilization: 1.069382 GB/s
+(INFO) 322432381556.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 88, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.148928
+(INFO) Performance in GFlop/s:     6.686873
+(INFO) Bandwidth utilization: 1.208572 GB/s
+(INFO) 285298254664.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 232, 2, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.140693
+(INFO) Performance in GFlop/s:     6.169501
+(INFO) Bandwidth utilization: 1.115063 GB/s
+(INFO) 309223208704.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 340, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.768619
+(INFO) Performance in GFlop/s:     7.003106
+(INFO) Bandwidth utilization: 1.265727 GB/s
+(INFO) 272415281060.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 276, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.317547
+(INFO) Performance in GFlop/s:     6.909041
+(INFO) Bandwidth utilization: 1.248726 GB/s
+(INFO) 276124138300.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 352, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.486024
+(INFO) Performance in GFlop/s:     6.898962
+(INFO) Bandwidth utilization: 1.246904 GB/s
+(INFO) 276527551236.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 68, 2, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.545650
+(INFO) Performance in GFlop/s:     5.921661
+(INFO) Bandwidth utilization: 1.070269 GB/s
+(INFO) 322165208968.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 340, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.616452
+(INFO) Performance in GFlop/s:     6.146856
+(INFO) Bandwidth utilization: 1.110970 GB/s
+(INFO) 310362402308.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 296, 2, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.013416
+(INFO) Performance in GFlop/s:     6.175588
+(INFO) Bandwidth utilization: 1.116163 GB/s
+(INFO) 308918452864.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 204, 4, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       131.776282
+(INFO) Performance in GFlop/s:     6.046108
+(INFO) Bandwidth utilization: 1.092761 GB/s
+(INFO) 315534045464.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 192, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.463046
+(INFO) Performance in GFlop/s:     7.021966
+(INFO) Bandwidth utilization: 1.269136 GB/s
+(INFO) 271683594108.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 232, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.051739
+(INFO) Performance in GFlop/s:     6.692331
+(INFO) Bandwidth utilization: 1.209558 GB/s
+(INFO) 285065539664.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 56, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.878632
+(INFO) Performance in GFlop/s:     6.646169
+(INFO) Bandwidth utilization: 1.201215 GB/s
+(INFO) 287045507832.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 124, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.195672
+(INFO) Performance in GFlop/s:     6.684250
+(INFO) Bandwidth utilization: 1.208098 GB/s
+(INFO) 285410183628.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 168, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.223430
+(INFO) Performance in GFlop/s:     7.036827
+(INFO) Bandwidth utilization: 1.271822 GB/s
+(INFO) 271109842164.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 380, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.233734
+(INFO) Performance in GFlop/s:     6.117721
+(INFO) Bandwidth utilization: 1.105704 GB/s
+(INFO) 311840469420.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 232, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.358423
+(INFO) Performance in GFlop/s:     6.159117
+(INFO) Bandwidth utilization: 1.113186 GB/s
+(INFO) 309744574392.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 60, 4, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.846692
+(INFO) Performance in GFlop/s:     6.647941
+(INFO) Bandwidth utilization: 1.201535 GB/s
+(INFO) 286969034040.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 48, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.352597
+(INFO) Performance in GFlop/s:     7.028808
+(INFO) Bandwidth utilization: 1.270372 GB/s
+(INFO) 271419128332.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.058201
+(INFO) Performance in GFlop/s:     6.691968
+(INFO) Bandwidth utilization: 1.209492 GB/s
+(INFO) 285081012864.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 336, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.380644
+(INFO) Performance in GFlop/s:     7.027070
+(INFO) Bandwidth utilization: 1.270058 GB/s
+(INFO) 271486287204.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 168, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.504429
+(INFO) Performance in GFlop/s:     6.152173
+(INFO) Bandwidth utilization: 1.111931 GB/s
+(INFO) 310094170616.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 20, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.406391
+(INFO) Performance in GFlop/s:     7.025474
+(INFO) Bandwidth utilization: 1.269770 GB/s
+(INFO) 271547937760.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 24, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.172554
+(INFO) Performance in GFlop/s:     6.167980
+(INFO) Bandwidth utilization: 1.114788 GB/s
+(INFO) 309299506700.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 16, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.226601
+(INFO) Performance in GFlop/s:     6.165400
+(INFO) Bandwidth utilization: 1.114322 GB/s
+(INFO) 309428918640.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 96, 4, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       130.267291
+(INFO) Performance in GFlop/s:     6.116145
+(INFO) Bandwidth utilization: 1.105419 GB/s
+(INFO) 311920818328.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 368, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.458877
+(INFO) Performance in GFlop/s:     7.022224
+(INFO) Bandwidth utilization: 1.269182 GB/s
+(INFO) 271673614816.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 16, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.340885
+(INFO) Performance in GFlop/s:     6.676117
+(INFO) Bandwidth utilization: 1.206628 GB/s
+(INFO) 285757890784.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 204, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.336164
+(INFO) Performance in GFlop/s:     7.029828
+(INFO) Bandwidth utilization: 1.270557 GB/s
+(INFO) 271379781480.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.42176941182206695, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=31, IntegerGene(0,2)=1, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.957515
+Performance in GFlop/s:     7.053393
+Bandwidth utilization: 1.274816 GB/s
+270473105508.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 88, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.046754
+(INFO) Performance in GFlop/s:     6.692612
+(INFO) Bandwidth utilization: 1.209609 GB/s
+(INFO) 285053601448.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 248, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.590538
+(INFO) Performance in GFlop/s:     7.014085
+(INFO) Bandwidth utilization: 1.267711 GB/s
+(INFO) 271988868628.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 128, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.323641
+(INFO) Performance in GFlop/s:     7.030604
+(INFO) Bandwidth utilization: 1.270697 GB/s
+(INFO) 271349789284.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 168, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.050863
+(INFO) Performance in GFlop/s:     6.692381
+(INFO) Bandwidth utilization: 1.209567 GB/s
+(INFO) 285063441940.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 304, 4, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       118.993544
+(INFO) Performance in GFlop/s:     6.695604
+(INFO) Bandwidth utilization: 1.210150 GB/s
+(INFO) 284926194296.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 92, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       118.974897
+(INFO) Performance in GFlop/s:     6.696654
+(INFO) Bandwidth utilization: 1.210339 GB/s
+(INFO) 284881544872.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 60, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.297845
+(INFO) Performance in GFlop/s:     6.910222
+(INFO) Bandwidth utilization: 1.248939 GB/s
+(INFO) 276076960756.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 184, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.433608
+(INFO) Performance in GFlop/s:     7.023789
+(INFO) Bandwidth utilization: 1.269465 GB/s
+(INFO) 271613105612.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 2, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.096608
+(INFO) Performance in GFlop/s:     6.171608
+(INFO) Bandwidth utilization: 1.115444 GB/s
+(INFO) 309117653100.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 32, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.262301
+(INFO) Performance in GFlop/s:     7.034412
+(INFO) Bandwidth utilization: 1.271385 GB/s
+(INFO) 271202917300.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 8, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.201679
+(INFO) Performance in GFlop/s:     7.038179
+(INFO) Bandwidth utilization: 1.272066 GB/s
+(INFO) 271057760320.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 372, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.366542
+(INFO) Performance in GFlop/s:     7.027944
+(INFO) Bandwidth utilization: 1.270216 GB/s
+(INFO) 271452518836.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 48, 2, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       134.536635
+(INFO) Performance in GFlop/s:     5.922058
+(INFO) Bandwidth utilization: 1.070340 GB/s
+(INFO) 322143621368.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 184, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.449100
+(INFO) Performance in GFlop/s:     7.022830
+(INFO) Bandwidth utilization: 1.269292 GB/s
+(INFO) 271650200676.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 228, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.230632
+(INFO) Performance in GFlop/s:     6.682290
+(INFO) Bandwidth utilization: 1.207743 GB/s
+(INFO) 285493894336.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 344, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.364588
+(INFO) Performance in GFlop/s:     6.674791
+(INFO) Bandwidth utilization: 1.206388 GB/s
+(INFO) 285814648148.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 392, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.350055
+(INFO) Performance in GFlop/s:     6.675604
+(INFO) Bandwidth utilization: 1.206535 GB/s
+(INFO) 285779846972.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 56, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.602324
+(INFO) Performance in GFlop/s:     6.661524
+(INFO) Bandwidth utilization: 1.203990 GB/s
+(INFO) 286383898320.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 160, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.112843
+(INFO) Performance in GFlop/s:     7.043707
+(INFO) Bandwidth utilization: 1.273065 GB/s
+(INFO) 270845045840.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.42176941182206695, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=31, IntegerGene(0,2)=1, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.957515
+Performance in GFlop/s:     7.053393
+Bandwidth utilization: 1.274816 GB/s
+270473105508.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 184, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.038783
+(INFO) Performance in GFlop/s:     7.048322
+(INFO) Bandwidth utilization: 1.273899 GB/s
+(INFO) 270667711100.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 168, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.359692
+(INFO) Performance in GFlop/s:     7.028369
+(INFO) Bandwidth utilization: 1.270293 GB/s
+(INFO) 271436118808.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.900402
+(INFO) Performance in GFlop/s:     7.056961
+(INFO) Bandwidth utilization: 1.275460 GB/s
+(INFO) 270336297880.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 368, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.325309
+(INFO) Performance in GFlop/s:     7.030501
+(INFO) Bandwidth utilization: 1.270678 GB/s
+(INFO) 271353064288.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.110875
+(INFO) Performance in GFlop/s:     7.043829
+(INFO) Bandwidth utilization: 1.273087 GB/s
+(INFO) 270840274780.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 168, 2, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.627724
+(INFO) Performance in GFlop/s:     5.962338
+(INFO) Bandwidth utilization: 1.077621 GB/s
+(INFO) 319967155820.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 96, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.111691
+(INFO) Performance in GFlop/s:     7.043778
+(INFO) Bandwidth utilization: 1.273078 GB/s
+(INFO) 270842311604.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 248, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.437286
+(INFO) Performance in GFlop/s:     6.901875
+(INFO) Bandwidth utilization: 1.247431 GB/s
+(INFO) 276410817520.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 84, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.973181
+(INFO) Performance in GFlop/s:     7.052414
+(INFO) Bandwidth utilization: 1.274639 GB/s
+(INFO) 270510600432.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 8, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.337202
+(INFO) Performance in GFlop/s:     6.160128
+(INFO) Bandwidth utilization: 1.113369 GB/s
+(INFO) 309693735648.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 124, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.556018
+(INFO) Performance in GFlop/s:     7.016217
+(INFO) Bandwidth utilization: 1.268097 GB/s
+(INFO) 271906225204.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219536230617824, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=4, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.900402
+Performance in GFlop/s:     7.056961
+Bandwidth utilization: 1.275460 GB/s
+270336297880.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.042567
+(INFO) Performance in GFlop/s:     7.048086
+(INFO) Bandwidth utilization: 1.273856 GB/s
+(INFO) 270676751188.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 76, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.013991
+(INFO) Performance in GFlop/s:     7.049868
+(INFO) Bandwidth utilization: 1.274179 GB/s
+(INFO) 270608332632.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.070424
+(INFO) Performance in GFlop/s:     6.691281
+(INFO) Bandwidth utilization: 1.209368 GB/s
+(INFO) 285110263816.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 2, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.598153
+(INFO) Performance in GFlop/s:     6.147724
+(INFO) Bandwidth utilization: 1.111127 GB/s
+(INFO) 310318564256.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 300, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.949859
+(INFO) Performance in GFlop/s:     7.053871
+(INFO) Bandwidth utilization: 1.274902 GB/s
+(INFO) 270454766324.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 144, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.212995
+(INFO) Performance in GFlop/s:     7.037476
+(INFO) Bandwidth utilization: 1.271939 GB/s
+(INFO) 271084827084.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 128, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.085096
+(INFO) Performance in GFlop/s:     6.690457
+(INFO) Bandwidth utilization: 1.209219 GB/s
+(INFO) 285145443104.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 128, 4, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.974620
+(INFO) Performance in GFlop/s:     7.052325
+(INFO) Bandwidth utilization: 1.274623 GB/s
+(INFO) 270514145024.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219536230617824, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=4, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.900402
+Performance in GFlop/s:     7.056961
+Bandwidth utilization: 1.275460 GB/s
+270336297880.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 128, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.219006
+(INFO) Performance in GFlop/s:     7.037102
+(INFO) Bandwidth utilization: 1.271871 GB/s
+(INFO) 271099268944.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 164, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.410664
+(INFO) Performance in GFlop/s:     7.025210
+(INFO) Bandwidth utilization: 1.269722 GB/s
+(INFO) 271558189152.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 56, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.122621
+(INFO) Performance in GFlop/s:     7.043098
+(INFO) Bandwidth utilization: 1.272955 GB/s
+(INFO) 270868462736.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 320, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.036288
+(INFO) Performance in GFlop/s:     7.048477
+(INFO) Bandwidth utilization: 1.273927 GB/s
+(INFO) 270661750764.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 12, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.072511
+(INFO) Performance in GFlop/s:     7.046219
+(INFO) Bandwidth utilization: 1.273519 GB/s
+(INFO) 270748520164.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 128, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.037383
+(INFO) Performance in GFlop/s:     6.693139
+(INFO) Bandwidth utilization: 1.209704 GB/s
+(INFO) 285031182292.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 84, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.547284
+(INFO) Performance in GFlop/s:     6.895304
+(INFO) Bandwidth utilization: 1.246243 GB/s
+(INFO) 276674241836.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 116, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.000757
+(INFO) Performance in GFlop/s:     7.050693
+(INFO) Bandwidth utilization: 1.274328 GB/s
+(INFO) 270576661044.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 20, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.603060
+(INFO) Performance in GFlop/s:     7.013312
+(INFO) Bandwidth utilization: 1.267571 GB/s
+(INFO) 272018864660.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 44, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.455783
+(INFO) Performance in GFlop/s:     7.022416
+(INFO) Bandwidth utilization: 1.269217 GB/s
+(INFO) 271666210156.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219536230617824, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=4, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.900402
+Performance in GFlop/s:     7.056961
+Bandwidth utilization: 1.275460 GB/s
+270336297880.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 300, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.951043
+(INFO) Performance in GFlop/s:     7.053797
+(INFO) Bandwidth utilization: 1.274889 GB/s
+(INFO) 270457625636.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 128, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.734741
+(INFO) Performance in GFlop/s:     7.005192
+(INFO) Bandwidth utilization: 1.266104 GB/s
+(INFO) 272334170472.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 124, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.115726
+(INFO) Performance in GFlop/s:     7.043527
+(INFO) Bandwidth utilization: 1.273033 GB/s
+(INFO) 270851967520.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219536230617824, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=4, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.900402
+Performance in GFlop/s:     7.056961
+Bandwidth utilization: 1.275460 GB/s
+270336297880.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.803217
+(INFO) Performance in GFlop/s:     6.138012
+(INFO) Bandwidth utilization: 1.109372 GB/s
+(INFO) 310809622236.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.898080
+(INFO) Performance in GFlop/s:     7.057106
+(INFO) Bandwidth utilization: 1.275487 GB/s
+(INFO) 270330814500.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 300, 2, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.051598
+(INFO) Performance in GFlop/s:     6.692339
+(INFO) Bandwidth utilization: 1.209560 GB/s
+(INFO) 285065215676.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 300, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.444699
+(INFO) Performance in GFlop/s:     6.901432
+(INFO) Bandwidth utilization: 1.247350 GB/s
+(INFO) 276428612480.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       132.989077
+(INFO) Performance in GFlop/s:     5.990971
+(INFO) Bandwidth utilization: 1.082796 GB/s
+(INFO) 318438067172.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 20, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.214969
+(INFO) Performance in GFlop/s:     6.915193
+(INFO) Bandwidth utilization: 1.249838 GB/s
+(INFO) 275878537380.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 84, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.291756
+(INFO) Performance in GFlop/s:     6.678866
+(INFO) Bandwidth utilization: 1.207124 GB/s
+(INFO) 285640319136.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 268, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.952959
+(INFO) Performance in GFlop/s:     7.053677
+(INFO) Bandwidth utilization: 1.274867 GB/s
+(INFO) 270462223932.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 72, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.010757
+(INFO) Performance in GFlop/s:     7.050070
+(INFO) Bandwidth utilization: 1.274215 GB/s
+(INFO) 270600627160.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 1, 1]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       119.167188
+(INFO) Performance in GFlop/s:     6.685848
+(INFO) Bandwidth utilization: 1.208386 GB/s
+(INFO) 285342003980.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 280, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.704802
+(INFO) Performance in GFlop/s:     5.958901
+(INFO) Bandwidth utilization: 1.076999 GB/s
+(INFO) 320151858232.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 20, 1, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.053118
+(INFO) Performance in GFlop/s:     6.173688
+(INFO) Bandwidth utilization: 1.115820 GB/s
+(INFO) 309013548104.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 56, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.055470
+(INFO) Performance in GFlop/s:     7.047281
+(INFO) Bandwidth utilization: 1.273711 GB/s
+(INFO) 270707688332.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 264, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.366436
+(INFO) Performance in GFlop/s:     7.027950
+(INFO) Bandwidth utilization: 1.270217 GB/s
+(INFO) 271452284980.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 364, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.949904
+(INFO) Performance in GFlop/s:     7.053868
+(INFO) Bandwidth utilization: 1.274901 GB/s
+(INFO) 270454911180.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 1496, 248, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.710164
+(INFO) Performance in GFlop/s:     7.006706
+(INFO) Bandwidth utilization: 1.266378 GB/s
+(INFO) 272275355324.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 356, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.349160
+(INFO) Performance in GFlop/s:     7.029022
+(INFO) Bandwidth utilization: 1.270411 GB/s
+(INFO) 271410921680.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 12, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.166948
+(INFO) Performance in GFlop/s:     7.040339
+(INFO) Bandwidth utilization: 1.272456 GB/s
+(INFO) 270974616408.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 304, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.053586
+(INFO) Performance in GFlop/s:     7.047399
+(INFO) Bandwidth utilization: 1.273732 GB/s
+(INFO) 270703176628.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 60, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.355512
+(INFO) Performance in GFlop/s:     7.028628
+(INFO) Bandwidth utilization: 1.270340 GB/s
+(INFO) 271426126404.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 1, 2]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.683348
+(INFO) Performance in GFlop/s:     6.143685
+(INFO) Bandwidth utilization: 1.110397 GB/s
+(INFO) 310522605528.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 112, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.043873
+(INFO) Performance in GFlop/s:     7.048004
+(INFO) Bandwidth utilization: 1.273842 GB/s
+(INFO) 270679784300.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 296, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.052664
+(INFO) Performance in GFlop/s:     7.047456
+(INFO) Bandwidth utilization: 1.273743 GB/s
+(INFO) 270700969168.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 196, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.438328
+(INFO) Performance in GFlop/s:     6.901813
+(INFO) Bandwidth utilization: 1.247419 GB/s
+(INFO) 276413356412.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 316, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.060739
+(INFO) Performance in GFlop/s:     7.046953
+(INFO) Bandwidth utilization: 1.273652 GB/s
+(INFO) 270720283152.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 224, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.989036
+(INFO) Performance in GFlop/s:     7.051425
+(INFO) Bandwidth utilization: 1.274460 GB/s
+(INFO) 270548602332.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 248, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       115.682037
+(INFO) Performance in GFlop/s:     6.887272
+(INFO) Bandwidth utilization: 1.244791 GB/s
+(INFO) 276996883328.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 76, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.036713
+(INFO) Performance in GFlop/s:     7.048451
+(INFO) Bandwidth utilization: 1.273922 GB/s
+(INFO) 270662758120.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 252, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.940249
+(INFO) Performance in GFlop/s:     7.054471
+(INFO) Bandwidth utilization: 1.275010 GB/s
+(INFO) 270431725820.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 380, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.102374
+(INFO) Performance in GFlop/s:     7.044359
+(INFO) Bandwidth utilization: 1.273183 GB/s
+(INFO) 270819978976.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.686085
+(INFO) Performance in GFlop/s:     5.959735
+(INFO) Bandwidth utilization: 1.077150 GB/s
+(INFO) 320107042244.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 152, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.966844
+(INFO) Performance in GFlop/s:     7.052810
+(INFO) Bandwidth utilization: 1.274710 GB/s
+(INFO) 270495461136.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 116, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.285139
+(INFO) Performance in GFlop/s:     7.032994
+(INFO) Bandwidth utilization: 1.271129 GB/s
+(INFO) 271257604760.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 108, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.105398
+(INFO) Performance in GFlop/s:     7.044170
+(INFO) Bandwidth utilization: 1.273149 GB/s
+(INFO) 270827220788.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 220, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.589871
+(INFO) Performance in GFlop/s:     5.964028
+(INFO) Bandwidth utilization: 1.077926 GB/s
+(INFO) 319876629620.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 256, 2, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.045335
+(INFO) Performance in GFlop/s:     7.047913
+(INFO) Bandwidth utilization: 1.273825 GB/s
+(INFO) 270683399356.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 196, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.932900
+(INFO) Performance in GFlop/s:     7.054930
+(INFO) Bandwidth utilization: 1.275093 GB/s
+(INFO) 270414176728.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 248, 1, 4]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       129.602102
+(INFO) Performance in GFlop/s:     6.147537
+(INFO) Bandwidth utilization: 1.111093 GB/s
+(INFO) 310328041828.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.4219610081004412, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=61, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.898080
+Performance in GFlop/s:     7.057106
+Bandwidth utilization: 1.275487 GB/s
+270330814500.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 84, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       112.882636
+(INFO) Performance in GFlop/s:     7.058071
+(INFO) Bandwidth utilization: 1.275661 GB/s
+(INFO) 270293821520.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 336, 1, 3]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       113.024658
+(INFO) Performance in GFlop/s:     7.049202
+(INFO) Bandwidth utilization: 1.274058 GB/s
+(INFO) 270633860772.000000
+(INFO) Validation OK.
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 2992, 96, 1, 0]...
+(INFO) Flops / stencil call:  89
+(INFO) Stencil computations:  8952064000
+(INFO) Bytes transferred:     144000000000
+(INFO) Total Flops:           796733696000
+(INFO) Seconds elapsed:       133.510211
+(INFO) Performance in GFlop/s:     5.967586
+(INFO) Bandwidth utilization: 1.078569 GB/s
+(INFO) 319685875832.000000
+(INFO) Validation OK.
+(INFO) Size:6, Fitness value:0.422010833775028, Alleles:[IntegerGene(0,0)=0, IntegerGene(0,0)=0, IntegerGene(0,2)=2, IntegerGene(0,100)=20, IntegerGene(0,2)=0, IntegerGene(0,4)=3], Application data:Flops / stencil call:  89
+Stencil computations:  8952064000
+Bytes transferred:     144000000000
+Total Flops:           796733696000
+Seconds elapsed:       112.882636
+Performance in GFlop/s:     7.058071
+Bandwidth utilization: 1.275661 GB/s
+270293821520.000000
+Validation OK.
+
+(INFO) Executing [/users/staff/ifi/guerrera/THESIS_exp/2d-4r-iso-const-box/PATUS/src/bench, 3000, 3000, 748, 248, 1, 4]...
